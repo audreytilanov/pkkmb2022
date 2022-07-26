@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 *{
     margin:0;
@@ -17,7 +18,7 @@ body{
     justify-content: center;
     line-height: 1.6;
     flex-direction: column;
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', serif;
 }
 
 ::-webkit-scrollbar{
@@ -449,10 +450,62 @@ a:hover{
 
 
 
+#cover{
+    padding: 0;
+    width: 100%;
+    background: url("../asset/2022/bg/main.png");
+    background-size: cover;
+    width: 100%;
+   
+}
 
-
-
-
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid white;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+    top: 30%;
+    animation-delay: 0.3s;
+    /* animation: scroll-down 1s ease-in-out infinite; */
+}
+  
+@keyframes scroll-down {
+    0% {
+      /* top:20%; */
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      top: 90%;
+      opacity: 0;
+    }
+}
+  
 
 /* Section Banner */
 #banner{
@@ -469,7 +522,7 @@ a:hover{
 }
 
 .img-banner img{
-    width: 500px;
+    width: 50vw;
 }
 
 .title-banner {
@@ -617,7 +670,7 @@ a:hover{
 #dharma-patni{
     background-image: url('../asset/umum/bg-putih.jpg');
     background-size: cover;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 .patni{
     margin-left: 40%;
@@ -724,6 +777,8 @@ a:hover{
 section h1.title{
     margin-bottom: 1.75rem;
     text-transform: uppercase;
+    color: #F3D049;
+    text-shadow: 3px 3px #4c4d48;
 }
 
 .font-weight-normal{
@@ -919,13 +974,23 @@ section h1.title{
 
 
 /* Start Section Penjelasan Logo */
-.penjelasan-mencolok{
+#desc-logo button{
     font-size: 20px!important;
     transition: 0.5s ease;
+    color: #ffcc00;
+    text-shadow: 2px 2px black;
     text-decoration-color: darkorange;
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #1d3362;
 }
 
-.penjelasan-mencolok u:hover{
+#desc-logo button:hover{
+    background-color: #01091a;
     color: darkorange;
     text-decoration-color: #fff!important;
     transition: 0.2s ease;
@@ -943,9 +1008,28 @@ section h1.title{
 }
 
 #desc-logo p{
-    font-size: 18px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    padding: 40px;
     text-align: justify;
-    /* text-indent: 50px; */
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#desc-logo img{
+    margin-top: 30px;
+    width: 50vw;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
@@ -1311,7 +1395,6 @@ ol{
 .slider_container input[type=range] {
     width: 100%;
     height: auto;
-    padding-bottom: 10px;
 }
 
 .current-time,.vol-down{
@@ -1513,7 +1596,7 @@ footer p{
     padding:80px;
     box-sizing:border-box;
     font-family:"Open Sans",sans-serif;
-    background: url("../asset/umum/bg-logo.png");
+    background: url("../asset/2022/bg/popup.png");
     background-size: cover;
     border-radius: 15px;
   }
@@ -1569,6 +1652,7 @@ footer p{
     margin-top: 20px;
     text-align: center;
     margin-bottom: -40px;
+    transition: 0.3s ease;
 }
 
 .faq{
@@ -1593,11 +1677,14 @@ footer p{
     padding-top: 1rem;
     line-height: 1.6;
     text-align: justify;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Poppins;
     font-size: 1.4rem;
 }
 
 .popup a:hover{
-    background-color: #c1292e;
+    background-color: #1d3362;
     color: white!important;
     transition: 0.3s ease;
 }
@@ -1630,7 +1717,7 @@ footer p{
     padding:80px;
     box-sizing:border-box;
     font-family:"Open Sans",sans-serif;
-    background: url("../asset/umum/bg-logo.png");
+    background: url("../asset/2022/bg/popup.png");
     background-size: cover;
     border-radius: 15px;
   }
@@ -1683,6 +1770,7 @@ footer p{
     padding: 10px 30px;
     margin-top: 20px;
     text-align: center;
+    transition: 0.3s ease;
     margin-bottom: -40px;
 }
 
@@ -1711,7 +1799,7 @@ footer p{
 }
 
 .popups a:hover{
-    background-color: #c1292e;
+    background-color: #1d3362;
     color: white;
     transition: 0.3s ease;
 }

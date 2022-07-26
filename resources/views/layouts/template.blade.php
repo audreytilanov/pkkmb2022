@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
-      <met a name="keywords" content="Student Day 2021" />
+      <meta name="keywords" content="Student Day 2021" />
       <meta name="description" content="Student Day 2021">
       <meta name="author" content="Tim Web Development 3D SDU 2021">
       <title><?= $page ?> | SDU 2021 </title>

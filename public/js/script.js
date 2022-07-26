@@ -183,9 +183,9 @@ let track_list = [{
 
     artist: "Universitas Udayana",
 
-    // image: "asset/umum/banner.jpg",
+    image: "../asset/2022/logo.png",
 
-    path: "../asset/lagu/bakti.mp3"
+    path: "../asset/2022/lagu/bakti.mp3"
 
   },
 
@@ -195,9 +195,9 @@ let track_list = [{
 
     artist: "Universitas Udayana",
 
-    // image: "admin/gambar/thumbnail_music/mars_udayana.jpg",
+    image: "../asset/2022/logo.png",
 
-    path: "../asset/lagu/unud.mp3"
+    path: "../asset/2022/lagu/unud.mp3"
 
   },
 
@@ -207,9 +207,9 @@ let track_list = [{
 
     artist: "Universitas Udayana",
 
-    // image: "admin/gambar/thumbnail_music/hynme_udayana.jpg",
+    image: "../asset/2022/logo.png",
 
-    path: "../asset/lagu/hymne.mp3",
+    path: "../asset/2022/lagu/hymne.mp3",
 
   },
 
@@ -219,9 +219,9 @@ let track_list = [{
 
     artist: "Universitas Udayana",
 
-    // image: "admin/gambar/thumbnail_music/mars_mahasiswa.jpg",
+    image: "../asset/2022/logo.png",
 
-    path: "../asset/lagu/mhs.mp3",
+    path: "../asset/2022/lagu/mhs.mp3",
 
   },
 
@@ -231,9 +231,9 @@ let track_list = [{
 
     artist: "Universitas Udayana",
 
-    // image: "admin/gambar/thumbnail_music/buruh_tani.jpg",
+    image: "../asset/2022/logo.png",
 
-    path: "../asset/lagu/buruh.mp3",
+    path: "../asset/2022/lagu/buruh.mp3",
 
   },
 
@@ -243,9 +243,9 @@ let track_list = [{
 
     artist: "Universitas Udayana",
 
-    // image: "admin/gambar/thumbnail_music/darah_juang.jpg",
+    image: "../asset/2022/logo.png",
 
-    path: "../asset/lagu/jayaudayana.mp3",
+    path: "../asset/2022/lagu/jayaudayana.mp3",
 
   },
   {
@@ -254,9 +254,9 @@ let track_list = [{
 
     artist: "Universitas Udayana",
 
-    // image: "admin/gambar/thumbnail_music/darah_juang.jpg",
+    image: "../asset/2022/logo.png",
 
-    path: "../asset/lagu/darah.mp3",
+    path: "../asset/2022/lagu/darah.mp3",
 
   }
 
@@ -428,12 +428,10 @@ function seekTo() {
   seekto = curr_track.duration * (seek_slider.value / 100);
 
   curr_track.currentTime = seekto;
-  document.getElementById("testos").innerHTML = seekto;
   // curr_track.seekTo(seekto);
   // playTrack();
 
 }
-
 
 
 function setVolume() {

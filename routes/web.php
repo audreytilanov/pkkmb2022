@@ -7,6 +7,7 @@ use App\Http\Controllers\UkmController;
 use App\Http\Controllers\OrmawaController;
 use App\Http\Controllers\PanitiaController;
 use App\Http\Controllers\PodcastController;
+use App\Http\Controllers\PkkmbCotroller;
 use App\Http\Controllers\FakultasController;
 use App\Http\Controllers\PaguyubanController;
 use App\Http\Controllers\ForumAgamaController;
@@ -25,6 +26,8 @@ use App\Http\Controllers\PendaftaranController;
 Route::get('/', function () {
     return view('page/beranda');
 });
+
+Route::get('/2022', [PkkmbCotroller::class, 'index']);
 
 //Ormawa
 Route::get('ormawa/', 'App\Http\Controllers\OrmawaController@index');
