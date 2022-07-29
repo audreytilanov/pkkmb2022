@@ -800,6 +800,10 @@ header a:hover{
 	font-weight: bold;
 }
 
+#navigate #menu{
+    display: none;
+}
+
 
 @media only screen and (max-width:990px){ 
     #fk-desc {
@@ -817,10 +821,21 @@ header a:hover{
     
 }
 
+@media only screen and (max-width:995px){ 
+    header{
+        display: none;
+    }
+    #navigate #menu{
+        display: block;
+    }
+}
+
 @media only screen and (max-width:770px){ 
     #fk-desc {
         margin-top: 330px!important;
     }
+
+    
 }
 
 @media only screen and (max-width:575px){ 

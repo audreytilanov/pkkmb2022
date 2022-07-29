@@ -52,61 +52,7 @@ $page="Home";
 
 
       <!-- Start Section Lini Masa -->
-      <section id="lini-masa" style="background-image: url('../asset/umum/bg-putih.jpg');background-size: cover;color: #000;">
-        <div class="container">
-          <div class="row" style="margin-left:-30px;">
-              <div class="col-sm-12" >
-                <h1 class="title title-animation aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal" >Lini</span> Masa</h1>
-              </div>
-              <div id="slider" class="owl-carousel aos-init aos-animate" data-aos="zoom-in-up" width: 80%;margin: 100px auto;>
-                <!-- Card 1 -->
-                <div class="flip-box">
-                  <div class="flip-box-front text-center" style="background-image: url('../asset/umum/lini-masa/rb1.jpeg');">
-                  </div>
-                  <div class="flip-box-back text-center" style="background-image:url('../asset/umum/lini-masa/bg.png');">
-                    <div class="inner color-white">
-                      <!-- Tulis keterangannya disini-->
-                      <h3 class="flip-box-header">Ruang Bercakap 1</h3>
-                      <p>Ruang Bercakap 1 adalah sebuah wadah yang mempertemukan antara pendamping gugus dengan adik-adiknya untuk saling mengakrabkan diri dan berbagi informasi seputar dunia perkuliahan di universitas udayana.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="flip-box">
-                  <div class="flip-box-front text-center" style="background-image: url('../asset/umum/lini-masa/rb2.jpeg');">
-                  </div>
-                  <div class="flip-box-back text-center" style="background-image:url('../asset/umum/lini-masa/bg.png');">
-                    <div class="inner color-white">
-                      <h3 class="flip-box-header">Ruang Bercakap 2</h3>
-                      <p>Ruang Bercakap 2 merupakan sebuah suplemen yang bertujuan untuk memberikan pemahaman tentang tugas utama sebagai seorang mahasiswa yakni Tri Dharma Perguruan Tinggi.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="flip-box">
-                  <div class="flip-box-front text-center" style="background-image: url('../asset/umum/lini-masa/cb.jpeg');">
-                  </div>
-                  <div class="flip-box-back text-center" style="background-image:url('../asset/umum/lini-masa/bg.png');">
-                    <div class="inner color-white">
-                    <h3 class="flip-box-header">Capacity Building</h3>
-                      <p>Capacity Building adalah salah satu suplemen dari Student Day 2021 Universitas Udayana yang bertujuan untuk menanamkan materi dari pembicara dengan fokus untama pada ilmu terapan/aplikatif.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card 5 -->
-                <div class="flip-box">
-                  <div class="flip-box-front text-center" style="background-image: url('../asset/umum/lini-masa/card-5.jpeg');"></div>
-                  <div class="flip-box-back text-center" style="background-image:url('../asset/umum/lini-masa/bg.png');">
-                    <div class="inner color-white">
-                      <h3 class="flip-box-header" style="padding-top: 15%;">Hari Puncak</h3>
-                      <p>Hari Puncak SDU 2021 merupakan sebuah kegiatan penutup yang bertujuan untuk memberikan sambutan selamat datang kepada mahasiswa baru di dunia perkuliahan dan mengingatkan tujuan awal dari SDU itu sendiri.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </section>
+      
       <!-- End Section Lini Masa -->
 
 

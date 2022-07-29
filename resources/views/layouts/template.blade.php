@@ -6,7 +6,7 @@
       <meta name="keywords" content="Student Day 2021" />
       <meta name="description" content="Student Day 2021">
       <meta name="author" content="Tim Web Development 3D SDU 2021">
-      <title><?= $page ?> | SDU 2021 </title>
+      <title><?= $page ?> | SDU 2022 </title>
 
       <!-- Favicon --- Perubahan dikit di icon (tak tambah2 in aja)-->
       <link rel="icon" href="{{asset('asset/logo/LOGO KAYON Stroke.png')}}" type="image/png" />
@@ -24,7 +24,7 @@
       <!-- Vendor CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.0/venobox.min.css">
 
@@ -52,17 +52,17 @@
             </nav>
           </div>
         </header>
-        {{-- <div id="navigate">
+        <div id="navigate">
           <div id="menu" class="title-menu">
-              <div class="title d-flex align-items-center pl-1" style="font-family: Poppins">
+            <div class="title d-flex align-items-center pl-1" style="font-family: Poppins">
                 STUDENT DAY 2021
-                <span class="font-weight-normal ml-1"></span>
-                <button id="menu-button">
-                  <span class="line-hamburger"></span>
-                  <span class="line-hamburger"></span>
-                  <span class="line-hamburger"></span>
-                </button>
-              </div>
+              <span class="font-weight-normal ml-1"></span>
+              <button id="menu-button">
+                <span class="line-hamburger"></span>
+                <span class="line-hamburger"></span>
+                <span class="line-hamburger"></span>
+              </button>
+            </div>
           </div>
 
           <div id="menu-content" style="justify-content: center; align-items:center;width:100%">
@@ -72,21 +72,21 @@
                   <img onclick="" src="{{asset('asset/logo/LOGO KAYON Stroke.png')}}" alt="Logo UNUD & Fakultas" class="img-fluid aos-init aos-animate" style="cursor: pointer;" data-aos="zoom-in-up" data-aos-delay="200">
                 </div>
                 <div class="menu-box col-sm-12 col-lg-6 px-4">
-                 <ul>
-                  <a href="/"><li>Beranda</li></a>
-                  <a href="/pendaftaran"><li>Pendaftaran</li></a>
-                  <a href="/petaunud"><li>Peta UNUD</li></a>
-                  <a href="/ormawa"><li>Ormawa</li></a>
-                  <a href="/misi"><li>Misi</li></a>
-                  <a href="/guidebook"><li>Guidebook</li></a>
-                  <a href="/galeri"><li>Galeri</li></a>
-                  <a href="/panitia"><li>Panitia</li></a>
-                </ul>
+                  <ul>
+                    <a href="/"><li>Beranda</li></a>
+                    <a href="/pendaftaran"><li>Pendaftaran</li></a>
+                    <a href="/petaunud"><li>Peta UNUD</li></a>
+                    <a href="/ormawa"><li>Ormawa</li></a>
+                    <a href="/misi"><li>Misi</li></a>
+                    <a href="/guidebook"><li>Guidebook</li></a>
+                    <a href="/galeri"><li>Galeri</li></a>
+                    <a href="/panitia"><li>Panitia</li></a>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> --}}
 
 
 
