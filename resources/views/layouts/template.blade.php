@@ -117,7 +117,7 @@
               <h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">Sekretariat</h5>
               <ul class="list list-unstyled">
                 <li class="mb-1">
-                  <p>Panitia Student Day 2021 Universitas Udayana</p>
+                  <p>Panitia Student Day 2022 Universitas Udayana</p>
                 </li>
                 <li class="mb-1">
                   <p>Direktorat Universitas Udayana <br><a href="https://goo.gl/maps/JghfBQnRHVA33pCm7" target="blank"><b class="text-primary">Jl. Kampus Bukit Jimbaran</b></a></p>
@@ -148,7 +148,7 @@
                 </a><br>
                 <i class="fa fa-envelope text-color-primary"></i>
                 <a href="mailto:studentday2020@bemudayana.id?subject=MessageTitle&amp; body=Message Content">
-                  <span class="text-color-light opacity-7 pl-2">studentday2020@bemudayana.id</span>
+                  <span class="text-color-light opacity-7 pl-2">studentday2022@bemudayana.id</span>
                 </a>
               </p>
             </div>
@@ -158,7 +158,7 @@
           <div class="container py-2">
             <div class="row py-4">
               <div class="col d-flex align-items-center justify-content-center mb-4 mb-lg-0">
-                <p>© Copyright 2021. 3D Student Day 2021 Universitas Udayana.</p>
+                <p>© Copyright 2022. 3D Student Day 2022 Universitas Udayana.</p>
               </div>
             </div>
           </div>
