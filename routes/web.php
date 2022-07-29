@@ -27,11 +27,12 @@ Route::get('/', function () {
     return view('page/beranda');
 });
 
-Route::get('/2022', [PkkmbCotroller::class, 'index']);
+Route::get('/', [PkkmbCotroller::class, 'index'])->name('index');
+Route::get('/ormawa', [PkkmbCotroller::class, 'lembaga'])->name('ormawa');
 
 //Ormawa
-Route::get('ormawa/', 'App\Http\Controllers\OrmawaController@index');
-Route::get('ormawa/fakultas{id}', 'App\Http\Controllers\OrmawaController@show');
+// Route::get('ormawa/', 'App\Http\Controllers\OrmawaController@index');
+// Route::get('ormawa/fakultas{id}', 'App\Http\Controllers\OrmawaController@show');
 
 // Fakultas
 // Route::get('fakultas', 'App\Http\Controllers\FakultasController@index')->name('fakultas.index');
@@ -43,7 +44,7 @@ Route::get('ormawa/fakultas{id}', 'App\Http\Controllers\OrmawaController@show');
 
 Route::get('/petaunud/', function(){
     return view('page/peta');
-});
+})->name('petaunud');
 
 Route::get('/petaunud/peta-kamsud', function(){
     return view('page/peta-kamsud');

@@ -24,18 +24,35 @@
       <!-- Vendor CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.0/venobox.min.css">
 
       <!-- Main CSS -->
       <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
-
     </head>
 
     <body class="pace-done" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
         <!-- Navigation -->
-        <div id="navigate">
+        <header>
+          <div class="container">
+            <div id="judul">
+              <img width="140" src="{{URL::asset('asset/2022/logo.png')}}" alt="">
+            </div>
+            <nav>
+              <ul>
+                <li><a href="{{ route('index') }}">BERANDA</a></li>
+                <li><a href="{{ route('ormawa') }}">LEMBAGA</a></li>
+                <li><a href="{{ route('petaunud') }}">MAPS</a></li>
+                <li><a href="javascript:void(0)" onclick="modalcs()">EKSPLORASI</a></li>			
+                <li><a href="javascript:void(0)" onclick="modalcs()">FAQ</a></li>	
+      
+                <li><a href="javascript:void(0)" onclick="modalcs()">TENTANG PKKMB</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        {{-- <div id="navigate">
           <div id="menu" class="title-menu">
               <div class="title d-flex align-items-center pl-1" style="font-family: Poppins">
                 STUDENT DAY 2021
@@ -69,7 +86,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
 
 
 
@@ -157,7 +174,7 @@
       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.0/venobox.min.js"></script>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
       {{-- BS --}}
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

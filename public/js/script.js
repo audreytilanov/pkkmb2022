@@ -7,6 +7,23 @@
 // AOS
 AOS.init();
 
+const faqs=document.querySelectorAll(".faq");
+faqs.forEach((faq) =>{
+  faq.addEventListener("click", ()=>{
+    faq.classList.toggle("active");
+  });
+});
+
+$(window).on("scroll", function() {
+  if($(window).scrollTop()) {
+        $('header').addClass('black');
+  }
+
+  else {
+        $('header').removeClass('black');
+  }
+})
+
 
 // Hamburger Menu
 var tombol = document.querySelector('#menu');
@@ -501,6 +518,125 @@ function seekUpdate() {
   }
 
 }
+
+// Pop up fakultas
+// FPAR
+function modaldescfpar(){
+  document.getElementById("modaldescfpar").classList.toggle("active");
+}
+
+function nmodaldescfpar(){
+  document.getElementById("modaldescfpar").classList.remove("active");
+}
+
+// FIB
+
+function modaldescfib(){
+  document.getElementById("modaldescfib").classList.toggle("active");
+}
+
+function nmodaldescfib(){
+  document.getElementById("modaldescfib").classList.remove("active");
+}
+
+// FK
+function modaldescfk(){
+  document.getElementById("modaldescfk").classList.toggle("active");
+}
+
+function nmodaldescfk(){
+  document.getElementById("modaldescfk").classList.remove("active");
+}
+
+// FH
+function modaldescfh(){
+  document.getElementById("modaldescfh").classList.toggle("active");
+}
+
+function nmodaldescfh(){
+  document.getElementById("modaldescfh").classList.remove("active");
+}
+
+// FT
+function modaldescft(){
+  document.getElementById("modaldescft").classList.toggle("active");
+}
+
+function nmodaldescft(){
+  document.getElementById("modaldescft").classList.remove("active");
+}
+
+// FP
+function modaldescfp(){
+  document.getElementById("modaldescfp").classList.toggle("active");
+}
+
+function nmodaldescfp(){
+  document.getElementById("modaldescfp").classList.remove("active");
+}
+
+// FEB
+function modaldescfeb(){
+  document.getElementById("modaldescfeb").classList.toggle("active");
+}
+
+function nmodaldescfeb(){
+  document.getElementById("modaldescfeb").classList.remove("active");
+}
+
+// FAPET
+function modaldescfapet(){
+  document.getElementById("modaldescfapet").classList.toggle("active");
+}
+
+function nmodaldescfapet(){
+  document.getElementById("modaldescfapet").classList.remove("active");
+}
+
+// FMIPA
+function modaldescfmipa(){
+  document.getElementById("modaldescfmipa").classList.toggle("active");
+}
+
+function nmodaldescfmipa(){
+  document.getElementById("modaldescfmipa").classList.remove("active");
+}
+
+// FKH
+function modaldescfkh(){
+  document.getElementById("modaldescfkh").classList.toggle("active");
+}
+
+function nmodaldescfkh(){
+  document.getElementById("modaldescfkh").classList.remove("active");
+}
+
+// FTP
+function modaldescftp(){
+  document.getElementById("modaldescftp").classList.toggle("active");
+}
+
+function nmodaldescftp(){
+  document.getElementById("modaldescftp").classList.remove("active");
+}
+
+// FISIP
+function modaldescfisip(){
+  document.getElementById("modaldescfisip").classList.toggle("active");
+}
+
+function nmodaldescfisip(){
+  document.getElementById("modaldescfisip").classList.remove("active");
+}
+
+// FKP
+function modaldescfkp(){
+  document.getElementById("modaldescfkp").classList.toggle("active");
+}
+
+function nmodaldescfkp(){
+  document.getElementById("modaldescfkp").classList.remove("active");
+}
 // Pop up
 
 function modaldesclogo(){
@@ -509,6 +645,14 @@ function modaldesclogo(){
 
 function nmodaldesclogo(){
   document.getElementById("popup-1").classList.remove("active");
+}
+
+function modalcs(){
+  document.getElementById("popup-2").classList.toggle("active");
+}
+
+function nmodalcs(){
+  document.getElementById("popup-2").classList.remove("active");
 }
 
 function modaldesclogo2(){
@@ -549,12 +693,6 @@ function modalDescPaguyuban(){
   document.getElementById("list-paguyuban").classList.toggle("active");
 }
 
-const faqs=document.querySelectorAll(".faq");
-faqs.forEach((faq) =>{
-  faq.addEventListener("click", ()=>{
-    faq.classList.toggle("active");
-  });
-});
 
 
 

@@ -12,11 +12,11 @@ $page="Home";
                         <div data-depth="0.2"><img src="{{ URL::Asset('asset/2022/logo.png') }}" alt="logo-sdu-banner" ></div>
                     </div>
                 </div>
-                <a href="#dharma-patni">
-                    <div class="scroll-down"></div>
-                </a>
             </div>
         </section>
+        <a href="#dharma-patni">
+            <div class="scroll-down"></div>
+        </a>
 
       <!-- Start Section Dharma Patni -->
         <section id="dharma-patni">

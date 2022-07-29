@@ -92,7 +92,7 @@ $page="Ormawa";
               </p>
               <p></p>
               <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
-              <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:10px; text-align:justify;">Untuk info lebih lanjut mengenai <strong onclick="modalDescFakultas()" style="cursor:pointer;">Fakultas di Universitas Udayana</strong>, klik pada gambar logo</p>
+              <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:10px; text-align:justify;">Untuk info lebih lanjut mengenai <strong onclick="modalDescFakultas()" style="cursor:pointer;color:black!important;">Fakultas di Universitas Udayana</strong>, klik pada gambar logo</p>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@ $page="Ormawa";
               <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:10px; text-align:justify;font-size:20px;">Untuk info lebih lanjut mengenai <strong class="show_info_paguyuban" style="cursor:pointer;">Paguyuban di Universitas Udayana</strong>, klik pada gambar peta berikut</p>
             </div>
             <div class="col-sm-12 col-lg-6 py-2 my-auto text-center" >
-              <img  src="{{asset('asset/paguyuban/Peta Paguyuban-01.png')}}" alt="Logo 13 Fakultas" class="img-fluid aos-init aos-animate maps-paguyuban" style="cursor: pointer; filter:brightness(1.2);margin-top:60px;" data-aos="zoom-in-up" data-aos-delay="500" >
+              <img style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" src="{{asset('asset/paguyuban/Peta Paguyuban-01.png')}}" alt="Logo 13 Fakultas" class="img-fluid aos-init aos-animate maps-paguyuban" style="cursor: pointer; filter:brightness(1.2);margin-top:60px;" data-aos="zoom-in-up" data-aos-delay="500" >
               <div class="swiper-container aos-init aos-animate "  data-aos="zoom-in-up" >
                 <div class="swiper-wrapper ">
                   @foreach ($data as $list_forumagama)

@@ -455,16 +455,31 @@ a:hover{
     width: 100%;
     background: url("../asset/2022/bg/main.png");
     background-size: cover;
-    width: 100%;
-   
+    width: 100%;    
+    background-position: center;
+    margin: 0;
 }
+
+#coverlembaga{
+    padding: 0;
+    width: 100%;
+    background: url("../asset/2022/bg/lembaga2.png");
+    background-size: cover;
+    width: 100%;    
+    background-position: center;
+    margin: 0;
+}
+
 
 .scroll-down {
     height: 50px;
     width: 30px;
     border: 2px solid white;
     position: absolute;
-    left: 50%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
     bottom: 20px;
     border-radius: 50px;
     cursor: pointer;
@@ -505,7 +520,330 @@ a:hover{
       opacity: 0;
     }
 }
-  
+
+.base {
+    position: relative;
+    margin: auto;
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 50px;
+    height: 35%;
+}
+
+.shield {
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.base_fpar {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    margin-top: 32%;
+    left: 16%;
+}
+
+.base_fpar .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+.base_ft {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    margin-top: 21.5%;
+    left: 24.5%;
+}
+
+.base_ft .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fapet {
+    position: absolute;
+    width: 13%;
+    height: 100%;
+    margin-top: 21%;
+    left: 64.8%;
+}
+
+.base_fapet .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fib {
+    position: absolute;
+    width: 11.5%;
+    height: 100%;
+    margin-top: 18.5%;
+    left: 52%;
+}
+
+.base_fib .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_feb {
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    margin-top: 17%;
+    left: 36%;
+}
+
+.base_feb .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_ftp {
+    position: absolute;
+    width: 11%;
+    height: 100%;
+    margin-top: 31%;
+    left: 75%;
+}
+
+.base_ftp .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fmipa {
+    position: absolute;
+    width: 10.3%;
+    height: 100%;
+    margin-top: 44%;
+    left: 72%;
+}
+
+.base_fmipa .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fp {
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    margin-top: 42.5%;
+    left: 17%;
+}
+
+.base_fp .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fisip {
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    margin-top: 55.5%;
+    left: 65.4%;
+}
+
+.base_fisip .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fkp {
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    margin-top: 56%;
+    left: 22%;
+}
+
+.base_fkp .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fh {
+    position: absolute;
+    width: 10.5%;
+    height: 100%;
+    margin-top: 69%;
+    left: 59%;
+}
+
+.base_fh .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fkh {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    margin-top: 67%;
+    left: 28%;
+}
+
+.base_fkh .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_fk {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    margin-top: 76.5%;
+    left: 42.6%;
+}
+
+.base_fk .logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.base_unud {
+    position: absolute;
+    width: 21%;
+    height: 100%;
+    margin-top: 41%;
+    left: 39%;
+}
+
+#fk-desc {
+    margin-top: 0px;
+}
+
+#fk-desc p {
+    color: white;
+    font-weight: 500;
+    text-shadow: 3px 3px #000000a1;
+}
+
+#desc-pnfa p {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-shadow: 1px 1px #00000067;
+}
+
+#desc-ukm p {
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px #00000067;
+}
+
+/*Header*/
+header.black {
+	background: #1c3a7d;
+	height: 100px;
+	transition: 0.3s;
+	z-index: 1000;
+
+}
+
+header {
+	background-color:transparent; /*#ff8c00*/
+	color: #ffffff;
+	padding-top: 15px;
+	min-height: 70px;
+	position: fixed;
+	width: 100%;
+	transition: 0.3s;
+	z-index: 1000;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+    font-weight: 500;
+}
+
+header li {
+	float: left;
+	display: inline;
+    margin-top: 10px;
+	padding:0 20px 0 20px;
+}
+
+header #judul{
+	float: left
+}
+
+header #judul h1 {
+	margin:0;
+}
+
+header nav {
+	float: right;
+	margin-top: 15px;
+}
+
+header .active a{
+	color: #f7e783;
+}
+header a:hover{
+	color: lightgrey;
+	font-weight: bold;
+}
+
+
+@media only screen and (max-width:990px){ 
+    #fk-desc {
+        margin-top: 440px!important;
+    }
+
+    .base {
+        position: relative;
+        margin: auto;
+        width: 70%;
+        /* margin-left: 7%; */
+        margin-top: 50px;
+        height: 35%;
+    }
+    
+}
+
+@media only screen and (max-width:770px){ 
+    #fk-desc {
+        margin-top: 330px!important;
+    }
+}
+
+@media only screen and (max-width:575px){ 
+    #fk-desc {
+        margin-top: 360px!important;
+    }
+
+    .base {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        /* margin-left: 7%; */
+        margin-top: 50px;
+        height: 35%;
+    }
+}
+
+@media only screen and (max-width:400px){ 
+    #fk-desc {
+        margin-top: 280px!important;
+    }
+}
+
 
 /* Section Banner */
 #banner{
@@ -1063,7 +1401,7 @@ hr{
 
 img{
     vertical-align: middle;
-    width: 100%;
+    /* width: 100%; */
 }
 
 ol{
@@ -1670,7 +2008,7 @@ footer p{
     overflow: hidden;
     margin-left: 5%;
 }
-.faq.active .answer{
+.faq .active .answer{
     max-height: 2000px;
 }
 .answer p{
@@ -2166,7 +2504,7 @@ footer p{
 
 /* Paguyuban */
 .swiper-container{
-    width: 100%;
+    width: 40%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -2175,8 +2513,8 @@ footer p{
     background-position: center;
     background-color: transparent;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     cursor: pointer;
 }
 
@@ -2250,6 +2588,22 @@ footer p{
 .paguyuban-8{
     top:60.4%;
     left: 72.5%;
+}
+
+.paguyuban-9 img{
+    width: 7%;
+}
+.paguyuban-9{
+    top:44.4%;
+    left: 48.5%;
+}
+
+.paguyuban-10 img{
+    width: 8%;
+}
+.paguyuban-10{
+    top:65%;
+    left: 42%;
 }
 
 /* UKM */
