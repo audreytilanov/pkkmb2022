@@ -9,11 +9,14 @@ use Illuminate\Support\Facades\DB;
 class PkkmbCotroller extends Controller
 {
     public function index(){
-        return view('page.2022');
+        $halaman = "beranda";
+        return view('page.2022',compact('halaman'));
     }
 
     public function lembaga(){
+        $halaman = "lembaga";
+
         $data=DB::table('ormawas')->get();
-        return view('page.2022lembaga', compact('data'));
+        return view('page.2022lembaga', compact('data','halaman'));
     }
 }

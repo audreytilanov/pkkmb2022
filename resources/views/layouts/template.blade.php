@@ -41,8 +41,8 @@
             </div>
             <nav>
               <ul>
-                <li><a href="{{ route('index') }}">BERANDA</a></li>
-                <li><a href="{{ route('ormawa') }}">LEMBAGA</a></li>
+                <li @if($halaman == "beranda") class="active" @endif><a href="{{ route('index') }}">BERANDA</a></li>
+                <li @if($halaman == "lembaga") class="active" @endif><a href="{{ route('ormawa') }}">LEMBAGA</a></li>
                 <li><a href="{{ route('petaunud') }}">MAPS</a></li>
                 <li><a href="javascript:void(0)" onclick="modalcs()">EKSPLORASI</a></li>			
                 <li><a href="javascript:void(0)" onclick="modalcs()">FAQ</a></li>	
@@ -55,7 +55,7 @@
         <div id="navigate">
           <div id="menu" class="title-menu">
             <div class="title d-flex align-items-center pl-1" style="font-family: Poppins">
-                STUDENT DAY 2021
+                PKKMB 2022
               <span class="font-weight-normal ml-1"></span>
               <button id="menu-button">
                 <span class="line-hamburger"></span>
