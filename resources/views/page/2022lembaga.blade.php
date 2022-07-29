@@ -1219,9 +1219,11 @@ $page="Ormawa";
                   <div class="swiper-wrapper ">
                     @foreach ($data as $list_forumagama)
                     @if ($list_forumagama->jenis_ormawa ==3)
-                    <div class="swiper-slide paguyuban-popup" style="background-image: url('../asset/paguyuban/<?php echo $list_forumagama->logo ?>');cursor:pointer;" data-title-paguyuban='<strong><?php echo $list_forumagama->singkatan ?></strong>' data-body-paguyuban='<img class="mx-auto d-block" src="../asset/paguyuban/<?php echo $list_forumagama->logo ?>" alt="" style="width: 10%; margin-bottom:30px"><p class="title" style="text-align:center"><?php echo $list_forumagama->nama?></p>
+                    {{-- {{ dd($list_forumagama) }} --}}
+                    <div class="swiper-slide paguyuban-popup" style="background-image: url('../asset/paguyuban/<?php echo $list_forumagama->logo ?>');cursor:pointer;" data-title-paguyuban='<strong><?php echo $list_forumagama->singkatan ?></strong>' data-body-paguyuban='
+                        <img class="mx-auto d-block" src="../asset/paguyuban/<?php echo $list_forumagama->logo ?>" alt="" style="width: 30%; margin-bottom:30px"><p class="title" style="text-align:center"><?php echo $list_forumagama->nama?></p>
                     <br>
-                    <p><?php echo $list_forumagama->keterangan ?></p
+                    <p style><?php echo $list_forumagama->keterangan ?></p>
                     <p><?php echo $list_forumagama->contact ?></p>'></div>
                     @endif
                     @endforeach
@@ -1305,7 +1307,8 @@ $page="Ormawa";
               $a=1;
               ?>
               @foreach ($data as $list_paguyuban)
-              @if ($list_paguyuban->jenis_ormawa ==2)
+              @if ($list_paguyuban->jenis_ormawa == 2)
+              {{-- {{ dd($list_paguyuban->keterangan) }} --}}
               <div class="node paguyuban-<?php echo $a ?>">
                 <a><img class="logo-paguyuban-node paguyuban-popup" src="../asset/paguyuban/<?php echo $list_paguyuban->logo ?>" alt="logo paguyuban" data-title-paguyuban='<strong><?php echo $list_paguyuban->slug ?></strong>' data-body-paguyuban='<img class="mx-auto d-block" src="../asset/paguyuban/<?php echo $list_paguyuban->logo ?>" alt="" style="width: 30%; margin-bottom:30px">
               <p class="title" style="text-align:center"><?php echo $list_paguyuban->nama?>
@@ -1328,7 +1331,7 @@ $page="Ormawa";
     <!-- Modal Detail Paguyuban -->
     <div class="modal fade" id="detailPaguyuban" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
       <div class="modal-dialog modal-md modal-dialog-centered modal-dialog-scrollable" role="document">
-        <div class="modal-content" style="border-radius:30px; background-image: url('../asset/umum/latar-popup-1.jpeg'); background-position:center;color:white; background-repeat:no-repeat; background-size:cover">
+        <div class="modal-content" style="border-radius:30px; background-image: url('../asset/2022/bg/popup.png'); background-position:center;color:black;font-weight:500; background-repeat:no-repeat; background-size:cover">
           <div class="modal-header">
             <h5 class="modal-title title" id="paguyubanTitle"></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
