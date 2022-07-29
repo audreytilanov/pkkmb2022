@@ -30,49 +30,53 @@ $page = "Info UKM";
     }
 </style>
 <button id="myBtn" title="Go to top"><i class="fas fa-chevron-up fa-2x"></i></button>
-<div style="background-image: url({{url('asset/umum/bg-penjelasan.jpg')}});font-family:poppins;text-transform:uppercase;">
-<div class="container">
-
-
-<div class="row hov">
-    @foreach ($ukm as $detail)
-    
-        <div data-aos="fade-right" class="col-sm-6 col-md-4 col-lg-3" style="position:relative;background-image: url({{url('asset/umum/bg-putih.jpg')}}); margin:20px;padding:20px;display: table; text-align: center;color:black;border-radius:20px;box-shadow: 3px 2px 8px 2px rgba(0,0,0,.5);">
-            {{-- <div class="thumbnail"> --}}
+<section id="cover">
+    <div style="background-image: url({{url('asset/umum/bg-penjelasan.jpg')}});font-family:poppins;text-transform:uppercase;">
+        <div class="container">
+            <h1 style="margin-top:180px;padding-bottom:50px;" class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal">UKM di </span><span>Universitas Udayana</span></h1>
+            <div class="row hov">
+                @foreach ($ukm as $detail)
+                    <div data-aos="fade-right" class="col-sm-6 col-md-4 col-lg-3" style="position:relative; margin:20px;padding:20px;display: flex;align-items:center;justify-content:center; text-align: center;color:black;border-radius:20px;box-shadow: 3px 2px 8px 2px rgba(0,0,0,.5);background: rgba( 255, 255, 255, 0.42 );
+                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                    backdrop-filter: blur( 8px );
+                    -webkit-backdrop-filter: blur( 6.5px );
+                    border-radius: 10px;
+                    border: 1px solid rgba( 255, 255, 255, 0.18 );">
+                        {{-- <div class="thumbnail"> --}}
+                            
+                            <a href="/ukm/{{ $detail->slug }}" style="color: rgb(43, 41, 41)">
+                            <div class="row card-header">
+                            <img style="width:100%;" src="{{ URL::asset('asset/ukm/'.$detail->foto.'') }}" alt="...">
+                                
+                            
+                            </div>
+                            <div class="row card-content" style="justify-content:center; text-align:center;">
+                            {{-- <div class="caption"> --}}
+                                <h3 style="margin-top: 20px;font-weight:800;text-decoration:none;">{{ $detail->nama }}</h3>
+                            </div>
+                            </a>
+                            
+                                {{-- <a style="bottom: 0!important;" href="/ukm/{{ $detail->slug }}">Button</a> --}}
+                            {{-- </div> --}}
+                        {{-- </div> --}}
+                    </div>
                 
-                <a href="/ukm/{{ $detail->slug }}" style="color: rgb(43, 41, 41)">
-                <div class="row card-header">
-                <img src="{{ URL::asset('asset/ukm/'.$detail->foto.'') }}" alt="...">
+                @endforeach
+                <div class="col-md-12" style="display: grid;
+                justify-content: center;
+                align-content: center;">
+                    <a class="hovi" href="/ormawa">Kembali Ke Ormawa</a>
+                </div>
+                
                     
-                
-                </div>
-                <div class="row card-content" style="justify-content:center; text-align:center;">
-                {{-- <div class="caption"> --}}
-                    <h3 style="margin-top: 20px;font-weight:800;text-decoration:none;">{{ $detail->nama }}</h3>
-                </div>
-                </a>
-                
-                    {{-- <a style="bottom: 0!important;" href="/ukm/{{ $detail->slug }}">Button</a> --}}
-                {{-- </div> --}}
-            {{-- </div> --}}
+
+            </div>
+            <br><br>
+            <br><br>
+            <br><br>
+
         </div>
-     
-    @endforeach
-    <div class="col-md-12" style="display: grid;
-    justify-content: center;
-    align-content: center;">
-        <a class="hovi" href="/ormawa">Kembali Ke Ormawa</a>
+
     </div>
-    
-        
-
-</div>
-<br><br>
-<br><br>
-<br><br>
-
-</div>
-
-</div>
-
+</section>
 @endsection
