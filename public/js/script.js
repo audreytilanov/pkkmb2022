@@ -176,7 +176,7 @@ let total_duration = document.querySelector(".total-duration");
 
 
 
-let track_index = 1;
+let track_index = 0;
 
 let isPlaying = false;
 
