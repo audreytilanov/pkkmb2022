@@ -14,14 +14,14 @@ class PkkmbCotroller extends Controller
     }
 
     public function lembaga(){
-        $halaman = "lembaga";
+        $halaman = "ormawa";
 
         $data=DB::table('ormawas')->get();
         return view('page.2022lembaga', compact('data','halaman'));
     }
 
     public function faq(){
-        $halaman = "faq";
+        $halaman = "maps";
 
         return view('page.faq', compact('halaman'));
     }

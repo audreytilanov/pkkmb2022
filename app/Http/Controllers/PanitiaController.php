@@ -15,7 +15,7 @@ class PanitiaController extends Controller
      */
     public function index()
     {
-        $halaman = "tentang";
+        $halaman = "panitia";
         $data=DB::table('panitias')->get();
         return view('page.panitia',compact('data', 'halaman'));
     }

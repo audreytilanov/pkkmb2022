@@ -41,12 +41,36 @@
             </div>
             <nav>
               <ul>
-                <li @if($halaman == "beranda") class="active" @endif><a href="{{ route('index') }}">BERANDA</a></li>
-                <li @if($halaman == "lembaga") class="active" @endif><a href="{{ route('ormawa') }}">LEMBAGA</a></li>
-                <li @if($halaman == "maps") class="active" @endif><a href="{{ route('petaunud') }}">MAPS</a></li>
+                <li><a @if($halaman == "beranda") class="active" @endif href="{{ route('index') }}">BERANDA</a></li>
+                <li>
+                  <div class="dropdown">
+                    <a class="dropbtn {{ $halaman == "ormawa" || $halaman == "pendaftaran" ? 'active' : '' }}">LEMBAGA <i class="fas fa-chevron-circle-down"></i></a>
+                    <div class="dropdown-content">
+                      <a @if($halaman == "ormawa") class="active" @endif href="{{ route('ormawa') }}">ORMAWA</a>
+                      <a @if($halaman == "pendaftaran") class="active" @endif href="javascript:void(0)" onclick="modalcs()">PENDAFTARAN</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <a @if($halaman == "maps" || $halaman == "faq") class="active" @endif href="javascript:void(0)">INFORMASI <i class="fas fa-chevron-circle-down"></i></a>
+                    <div class="dropdown-content">
+                      <a @if($halaman == "maps") class="active" @endif href="{{ route('petaunud') }}">PETA UNUD</a>
+                      <a @if($halaman == "guidebook") class="active" @endif href="javascript:void(0)" onclick="modalcs()">GUIDEBOOK</a>
+                      <a @if($halaman == "faq") class="active" @endif href="{{ route('faq') }}">FAQ</a>
+                    </div>
+                  </div>
+                </li>
                 <li><a href="javascript:void(0)" onclick="modalcs()">EKSPLORASI</a></li>			
-                <li @if($halaman == "faq") class="active" @endif><a href="{{ route('faq') }}">FAQ</a></li>	
-                <li @if($halaman == "tentang") class="active" @endif><a href="{{ route('galeri') }}">TENTANG PKKMB</a></li>
+                {{-- <li @if($halaman == "faq") class="active" @endif><a href="{{ route('faq') }}">FAQ</a></li>	 --}}
+                <li>
+                  <div class="dropdown">
+                    <a @if($halaman == "galeri" || $halaman == "panitia") class="active" @endif href="javascript:void(0)">TENTANG PKKMB <i class="fas fa-chevron-circle-down"></i></a>
+                    <div class="dropdown-content">
+                      <a @if($halaman == "galeri") class="active" @endif href="{{ route('galeri') }}">GALERI</a>
+                      <a @if($halaman == "panitia") class="active" @endif href="{{ route('panitia') }}">PANITIA</a>
+                    </div>
+                  </div>
               </ul>
             </nav>
           </div>

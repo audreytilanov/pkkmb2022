@@ -60,11 +60,11 @@ Route::get('/petaunud/peta-bukit', function(){
 });
 
 Route::get('/galeri', function(){
-    $halaman = "tentang";
+    $halaman = "galeri";
     return view('page/galeri', compact('halaman'));
 })->name('galeri');
 
-Route::get('/panitia', 'App\Http\Controllers\PanitiaController@index');
+Route::get('/panitia', 'App\Http\Controllers\PanitiaController@index')->name('panitia');
 
 Route::get('/podcast', function(){
     return view('page.podcast');

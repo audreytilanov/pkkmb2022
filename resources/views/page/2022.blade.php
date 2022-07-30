@@ -58,52 +58,42 @@ $page="Home";
               <div class="col-sm-12" >
                 <h1 class="title title-animation aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal" >Lini</span> Masa</h1>
               </div>
-              <div class="wrapper">
-                <li class="image">
-                    <div class="circle"></div>
-                    <img src="asset/UNUD.png" alt="">
-                </li>
-                <li class="image">
-                    <div class="circle"></div>
-                    <img src="asset/UNUD.png" alt="">
-                </li>
-                <li class="image">
-                    <div class="circle"></div>
-                    <img src="" alt="">
-                </li>
-                <li class="image">
-                    <div class="circle"></div>
-                    <img src="asset/UNUD.png" alt="">
-                </li>
-                <li class="dot line"></li>
-                <li class="dot line"></li>
-                <li class="dot line"></li>
-                <li class="dot"></li>
-                <li class="title">
-                    25 Juli
-                </li>
-                <li class="title">
-                    2 Agustus
-                </li>
-                <li class="title">
-                    3 Agustus
-                </li>
-                <li class="title">
-                    8-9 Agustus 
-                </li>
-                <li class="text-child">
-                    Temu Pangus
-                </li>
-                <li class="text-child">
-                    Capacity Building
-                </li>
-                <li class="text-child">
-                    Mentoring
-                </li>
-                <li class="text-child">
-                    Hari Puncak PKKMB 2022 Universitas Udayana
-                </li>
-            </div>
+              <div class="timeline">
+                <div class="outer">
+                  <div class="cardtime">
+                    <div class="infotime">
+                      <h3 class="titletime">MAHASISWA DITERIMA DI UNIVERSITAS UDAYANA</h3>
+                    </div>
+                  </div>
+                  <div class="cardtime">
+                    <div class="infotime">
+                      <h3 class="titletime">TEMU PANGUS - 25 JULI</h3>
+                      <p>Temu Pangus merupakan rangkaian kegiatan pertama 
+                        yang dilakukan para mahasiswa baru sebagai ruang
+                        adaptasi dengan mahasiswa baru lainnya ditemani
+                        kakak-kakak pendamping gugus.</p>
+                    </div>
+                  </div>
+                  <div class="cardtime">
+                    <div class="infotime">
+                      <h3 class="titletime">MENTORING - 2 AGUSTUS</h3>
+                      <p>Mentoring merupakan rangkaian kegiatan kedua yang dihadiri para mentor hebat dengan berbagai materi yang tentunya akan sangat berguna untuk para mahasiswa baru</p>
+                    </div>
+                  </div>
+                  <div class="cardtime">
+                    <div class="infotime">
+                      <h3 class="titletime">CAPACITY BUILDING - 3 AGUSTUS</h3>
+                      <p>Capacity Building merupakan  rangakaian kegiatan ketiga yang bertujuan untuk membentuk karakter mahasiswa baru dengan mendatangkan pembicara yang keren dan seru banget tentunya!</p>
+                    </div>
+                  </div>
+                  <div class="cardtime">
+                    <div class="infotime">
+                      <h3 class="titletime">HARI-H PKKMB - 8-9 AGUSTUS</h3>
+                      <p>PKKMB 2022 merupakan puncak kegiatan para mahasiswa baru dan tahap terakhir sebelum akhirnya resmi menjadi mahasiswa di Universitas Udayana.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </section>
