@@ -13,9 +13,13 @@ $page="Panitia";
      #judulmisi{
     margin: 0;
     /* padding: 0; */
+    background-attachment: fixed!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     text-align: center;
-    background: url("../asset/umum/bg-putih2.jpg");
+    background: url("../asset/2022/bg/galeri.png");
 
 }
 
@@ -72,7 +76,7 @@ $page="Panitia";
 
                   <h2 class="mb-2 font-weight-bold">STEERING COMMITTEE</h2>
 
-                  <p class="text-muted para-desc mx-auto mb-0">Penasihat dan Pengarah dalam Student Day 2021 Universitas Udayana</p>
+                  <p class="text-muted para-desc mx-auto mb-0">Penasihat dan Pengarah dalam Student Day 2022 Universitas Udayana</p>
 
                 </div>
 
@@ -156,7 +160,7 @@ $page="Panitia";
 
                   <h2 class="mb-2 font-weight-bold">INTI</h2>
 
-                  <p class="text-muted para-desc mx-auto mb-0">Pengurus dan Pengelola Utama dari Student Day 2021 Universitas Udayana</p>
+                  <p class="text-muted para-desc mx-auto mb-0">Pengurus dan Pengelola Utama dari Student Day 2022 Universitas Udayana</p>
 
                 </div>
 

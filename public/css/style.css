@@ -285,7 +285,7 @@ a:hover{
     z-index: 9999;
     color: #fff;
     /* background: linear-gradient(to left top, #559940, #056914); */
-    background: linear-gradient(to left top, #c51313, #a33d1f);
+    background: linear-gradient(to left top, #131fc5, #0a3253);
     position: fixed;
     right: 0;
     margin: 15px 15px 0;
@@ -388,7 +388,7 @@ a:hover{
     transform: translateX(8px);
 }
 #menu-content img{
-    width: 85%!important;
+    width: 100%!important;
     float: block;
     margin-left: auto;
     margin-right: auto;
@@ -407,10 +407,17 @@ a:hover{
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width:991.98px){ 
+@media only screen and (min-width: 768px) and (max-width:994.98px){ 
     #navigate #menu-content ul li{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center!important;
+    }
+
+    #menu-content img{
+        width: 30%!important;
+        float: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
@@ -419,6 +426,13 @@ a:hover{
         font-size: 30px;
         text-align: center!important;
     }
+
+    #menu-content img{
+        width: 100%!important;
+        float: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width:575.98px){ 
@@ -426,18 +440,28 @@ a:hover{
         font-size: 30px;
         text-align: center!important;
     }
+
+    #menu-content img{
+        width: 30%!important;
+        float: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 100px) and (max-width:479.98px){ 
     #menu-content img{
-        width: 90%!important;
+        width: 100%!important;
+        float: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     #navigate #menu-content ul li{
-        font-size: 30px;
+        font-size: 20px;
         text-align: center!important;
     }
     #menu .title{
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
@@ -2730,6 +2754,7 @@ footer p{
 
 
 
+
 /* Star Maps Utama */
 .node{
     position: absolute!important;
@@ -2799,6 +2824,7 @@ footer p{
 
 #detail-peta #background img{
     position: relative;
+    width: 100%;
 }
 
 
@@ -3315,7 +3341,7 @@ footer p{
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background: url("../asset/umum/bg-merah.png");
+    background: url("../asset/2022/bg/galeri.png");
     background-size: cover;
     background-attachment: fixed;
     /* min-height: 100vh; */
@@ -3838,4 +3864,213 @@ transform : scale(1.2)!important;
 }
 
 /* start misi*/
+/* -------------------CSS Reset------------------- */
+#lini-masa ol, ul {
+	list-style: none;
+    z-index: 5;
+}
+#lini-masa blockquote, q {
+    z-index: 5;
+	quotes: none;
+}
+#lini-masa blockquote:before, #lini-masa blockquote:after,
+q:before, q:after {
+	content: '';
+    z-index: 5;
+	content: none;
+}
+#lini-masa table {
+    border-collapse: collapse;
+    z-index: 5;
+	border-spacing: 0;
+}
+
+#lini-masa body {
+    z-index: 5;
+    padding: 20px;
+}
+
+#lini-masa h1 {
+    z-index: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /* margin: 20px 0 40px 0; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#lini-masa li {
+    z-index: 5;
+    list-style-type: none;
+}
+
+#lini-masa li.dot{
+    z-index: 5;
+    display: flex;
+    position: relative;
+}
+
+#lini-masa li.dot:hover::before {
+    z-index: 5;
+    transform: scale(1.3);
+}
+
+#lini-masa li.dot::before {
+    content: '';
+    z-index: 5;
+    width: 15px;
+    height: 15px;
+    line-height: 50px;
+    border: 3px solid black;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background: white;
+    letter-spacing: 0px;
+}
+
+.wrapper{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper .title{
+    font-size: 20px!important;
+}
+
+#lini-masa .text-child{
+    font-size: 20px!important;
+}
+
+/* -------------------mobile screen------------------- */
+
+@media screen and (max-width: 600px) {
+    #lini-masa .wrapper {
+        display: grid;
+        grid-template-rows: repeat(4, minmax(0, 1fr));
+        grid-auto-flow: column;
+        padding: 20px;
+    }
+
+    #lini-masa li.dot::before {
+        margin-left: 121%;
+        margin-right: -121%;
+    }
+
+    #lini-masa li.dot.line::after {
+        content: '';
+        margin-left: 120%;
+        position: absolute;
+        width: 4px;
+        height: 100%;
+        background-color: black;
+        top: 0;
+        bottom: 0;
+        left: 43%;
+        z-index: -1;
+    }
+
+    #lini-masa .image .circle {
+        margin-top: -30%;
+        position: relative;
+        background: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+    #lini-masa img {
+        position: relative;
+        margin-top: -100%;
+        margin-left: 40%;
+        margin-bottom: 36%;
+        width: 40px;
+    }
+
+    #lini-masa .wrapper .title {
+        text-align: center;
+        position: relative;
+        margin: 0 50px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    #lini-masa li.text-child {
+        text-align: center;
+    }
+}
+
+/* -------------------tablet and desktop screen------------------- */
+
+@media screen and (min-width: 601px){
+    #lini-masa .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    
+    #lini-masa li.dot.line::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: black;
+        top: 9px;
+        left: 50%;
+        z-index: -1;
+    }
+    
+    #lini-masa .wrapper .title {
+        text-align: center;
+        margin: 15px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    
+    #lini-masa .wrapper .text-child {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 30px;
+    }
+    
+    #lini-masa .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    #lini-masa .image .circle {
+        position: absolute;
+        background: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    
+    #lini-masa .image img {
+        width: 40px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #lini-masa .text-child{
+        font-size: 15px!important;
+    }
+}
 

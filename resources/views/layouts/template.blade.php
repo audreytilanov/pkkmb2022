@@ -43,11 +43,10 @@
               <ul>
                 <li @if($halaman == "beranda") class="active" @endif><a href="{{ route('index') }}">BERANDA</a></li>
                 <li @if($halaman == "lembaga") class="active" @endif><a href="{{ route('ormawa') }}">LEMBAGA</a></li>
-                <li><a href="{{ route('petaunud') }}">MAPS</a></li>
+                <li @if($halaman == "maps") class="active" @endif><a href="{{ route('petaunud') }}">MAPS</a></li>
                 <li><a href="javascript:void(0)" onclick="modalcs()">EKSPLORASI</a></li>			
                 <li><a href="javascript:void(0)" onclick="modalcs()">FAQ</a></li>	
-      
-                <li><a href="javascript:void(0)" onclick="modalcs()">TENTANG PKKMB</a></li>
+                <li @if($halaman == "tentang") class="active" @endif><a href="{{ route('galeri') }}">TENTANG PKKMB</a></li>
               </ul>
             </nav>
           </div>
@@ -69,7 +68,7 @@
             <div class="container-fluid">
               <div class="row d-flex align-items-center">
                 <div class="col-sm-12 col-lg-6 py-2 my-auto text-center">
-                  <img onclick="" src="{{asset('asset/logo/LOGO KAYON Stroke.png')}}" alt="Logo UNUD & Fakultas" class="img-fluid aos-init aos-animate" style="cursor: pointer;" data-aos="zoom-in-up" data-aos-delay="200">
+                  <img src="{{asset('asset/2022/logo.png')}}" alt="Logo UNUD & Fakultas" class="img-fluid aos-init aos-animate" style="cursor: pointer;" data-aos="zoom-in-up" data-aos-delay="200">
                 </div>
                 <div class="menu-box col-sm-12 col-lg-6 px-4">
                   <ul>
@@ -147,8 +146,8 @@
                   <span class="text-color-light opacity-7 pl-2">bemudayana.id</span>
                 </a><br>
                 <i class="fa fa-envelope text-color-primary"></i>
-                <a href="mailto:studentday2020@bemudayana.id?subject=MessageTitle&amp; body=Message Content">
-                  <span class="text-color-light opacity-7 pl-2">studentday2022@bemudayana.id</span>
+                <a href="mailto:studentday@bemudayana.id?subject=MessageTitle&amp; body=Message Content">
+                  <span class="text-color-light opacity-7 pl-2">studentday@bemudayana.id</span>
                 </a>
               </p>
             </div>

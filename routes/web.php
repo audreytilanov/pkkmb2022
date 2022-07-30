@@ -43,9 +43,9 @@ Route::get('/ormawa', [PkkmbCotroller::class, 'lembaga'])->name('ormawa');
 // Route::get('ormawa/pnfa', 'App\Http\Controllers\ForumAgamaController@index' );
 
 Route::get('/petaunud/', function(){
-    return view('page/peta');
+    $halaman = "maps";
+    return view('page/peta',compact('halaman'));
 })->name('petaunud');
-
 Route::get('/petaunud/peta-kamsud', function(){
     return view('page/peta-kamsud');
 });
@@ -59,8 +59,9 @@ Route::get('/petaunud/peta-bukit', function(){
 });
 
 Route::get('/galeri', function(){
-    return view('page/galeri');
-});
+    $halaman = "tentang";
+    return view('page/galeri', compact('halaman'));
+})->name('galeri');
 
 Route::get('/panitia', 'App\Http\Controllers\PanitiaController@index');
 

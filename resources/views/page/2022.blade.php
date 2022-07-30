@@ -52,7 +52,62 @@ $page="Home";
 
 
       <!-- Start Section Lini Masa -->
-      
+      <section id="lini-masa" style="background-image: url('../asset/umum/bg-putih.jpg');background-size: cover;color: #000;">
+        <div class="container">
+          <div class="row" style="margin-left:-30px;">
+              <div class="col-sm-12" >
+                <h1 class="title title-animation aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal" >Lini</span> Masa</h1>
+              </div>
+              <div class="wrapper">
+                <li class="image">
+                    <div class="circle"></div>
+                    <img src="asset/UNUD.png" alt="">
+                </li>
+                <li class="image">
+                    <div class="circle"></div>
+                    <img src="asset/UNUD.png" alt="">
+                </li>
+                <li class="image">
+                    <div class="circle"></div>
+                    <img src="" alt="">
+                </li>
+                <li class="image">
+                    <div class="circle"></div>
+                    <img src="asset/UNUD.png" alt="">
+                </li>
+                <li class="dot line"></li>
+                <li class="dot line"></li>
+                <li class="dot line"></li>
+                <li class="dot"></li>
+                <li class="title">
+                    25 Juli
+                </li>
+                <li class="title">
+                    2 Agustus
+                </li>
+                <li class="title">
+                    3 Agustus
+                </li>
+                <li class="title">
+                    8-9 Agustus 
+                </li>
+                <li class="text-child">
+                    Temu Pangus
+                </li>
+                <li class="text-child">
+                    Capacity Building
+                </li>
+                <li class="text-child">
+                    Mentoring
+                </li>
+                <li class="text-child">
+                    Hari Puncak PKKMB 2022 Universitas Udayana
+                </li>
+            </div>
+          </div>
+        </div>
+      </section>
+        
       <!-- End Section Lini Masa -->
 
 
