@@ -29,6 +29,7 @@ Route::get('/', function () {
 
 Route::get('/', [PkkmbCotroller::class, 'index'])->name('index');
 Route::get('/ormawa', [PkkmbCotroller::class, 'lembaga'])->name('ormawa');
+Route::get('/faq', [PkkmbCotroller::class, 'faq'])->name('faq');
 
 //Ormawa
 // Route::get('ormawa/', 'App\Http\Controllers\OrmawaController@index');

@@ -45,7 +45,7 @@
                 <li @if($halaman == "lembaga") class="active" @endif><a href="{{ route('ormawa') }}">LEMBAGA</a></li>
                 <li @if($halaman == "maps") class="active" @endif><a href="{{ route('petaunud') }}">MAPS</a></li>
                 <li><a href="javascript:void(0)" onclick="modalcs()">EKSPLORASI</a></li>			
-                <li><a href="javascript:void(0)" onclick="modalcs()">FAQ</a></li>	
+                <li @if($halaman == "faq") class="active" @endif><a href="{{ route('faq') }}">FAQ</a></li>	
                 <li @if($halaman == "tentang") class="active" @endif><a href="{{ route('galeri') }}">TENTANG PKKMB</a></li>
               </ul>
             </nav>
@@ -110,13 +110,13 @@
         <div class="container-fluid py-4">
           <div class="row justify-content-md-center py-5 mt-3">
             <div class="col-md-12 col-lg-3  align-items-center  mb-5 mb-lg-0 text-center">
-              <a href="/"><img src="{{asset('asset/logo/LOGO KAYON Stroke.png')}}" alt="Logo" class="img-fluid" style="max-width: 370px;text-align: center;"></a>
+              <a href="/"><img src="{{asset('asset/2022/logo.png')}}" alt="Logo" class="img-fluid" style="max-width: 300px!important;text-align: center;"></a>
             </div>
             <div class="col-md-12 col-lg-2 text-center text-lg-left mb-5 mb-lg-0">
               <h5 class="text-5 text-transform-none font-weight-semibold text-color-light mb-4">Sekretariat</h5>
               <ul class="list list-unstyled">
                 <li class="mb-1">
-                  <p>Panitia Student Day 2022 Universitas Udayana</p>
+                  <p>Panitia PKKMB 2022 Universitas Udayana</p>
                 </li>
                 <li class="mb-1">
                   <p>Direktorat Universitas Udayana <br><a href="https://goo.gl/maps/JghfBQnRHVA33pCm7" target="blank"><b class="text-primary">Jl. Kampus Bukit Jimbaran</b></a></p>
@@ -157,7 +157,7 @@
           <div class="container py-2">
             <div class="row py-4">
               <div class="col d-flex align-items-center justify-content-center mb-4 mb-lg-0">
-                <p>© Copyright 2022. 3D Student Day 2022 Universitas Udayana.</p>
+                <p>© Copyright 2022. 3D PKKMB 2022 Universitas Udayana.</p>
               </div>
             </div>
           </div>

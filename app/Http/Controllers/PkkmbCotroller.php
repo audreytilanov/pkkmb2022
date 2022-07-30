@@ -19,4 +19,10 @@ class PkkmbCotroller extends Controller
         $data=DB::table('ormawas')->get();
         return view('page.2022lembaga', compact('data','halaman'));
     }
+
+    public function faq(){
+        $halaman = "faq";
+
+        return view('page.faq', compact('halaman'));
+    }
 }

@@ -494,6 +494,44 @@ a:hover{
     margin: 0;
 }
 
+#coverfaq{
+    padding: 0;
+    width: 100%;
+    background: url("../asset/2022/bg/lembaga2.png");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;    
+    background-position: center;
+    margin: 0;
+
+}
+
+#coverfaq .faq{
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px!important;
+    width: 70%;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: auto;
+}
+
+#wrapperfaq{
+    padding-top: 10vw!important;
+    padding: 0;
+    
+    padding-bottom: 10vw!important;
+
+}
+
+
+
 
 .scroll-down {
     height: 50px;
