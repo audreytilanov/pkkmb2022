@@ -46,7 +46,7 @@ $page = "Info UKM";
                             
                             <a href="/ukm/{{ $detail->slug }}" style="color: rgb(43, 41, 41)">
                             <div class="row card-header">
-                            <img style="width:100%;" src="{{ URL::asset('asset/ukm/'.$detail->foto.'') }}" alt="...">
+                            <img style="width:100%;" src="{{ URL::asset('asset/ukm/new/'.$detail->foto.'') }}" alt="...">
                                 
                             
                             </div>
