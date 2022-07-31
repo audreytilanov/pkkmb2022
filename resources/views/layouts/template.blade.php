@@ -62,7 +62,6 @@
                   </div>
                 </li>
                 <li><a href="javascript:void(0)" onclick="modalcs()">EKSPLORASI</a></li>			
-                {{-- <li @if($halaman == "faq") class="active" @endif><a href="{{ route('faq') }}">FAQ</a></li>	 --}}
                 <li>
                   <div class="dropdown">
                     <a @if($halaman == "galeri" || $halaman == "panitia") class="active" @endif href="javascript:void(0)">TENTANG PKKMB <i class="fas fa-chevron-circle-down"></i></a>
@@ -96,14 +95,14 @@
                 </div>
                 <div class="menu-box col-sm-12 col-lg-6 px-4">
                   <ul>
-                    <a href="/"><li>Beranda</li></a>
-                    <a href="/pendaftaran"><li>Pendaftaran</li></a>
-                    <a href="/petaunud"><li>Peta UNUD</li></a>
-                    <a href="/ormawa"><li>Ormawa</li></a>
-                    <a href="/misi"><li>Misi</li></a>
-                    <a href="/guidebook"><li>Guidebook</li></a>
-                    <a href="/galeri"><li>Galeri</li></a>
-                    <a href="/panitia"><li>Panitia</li></a>
+                    <a @if($halaman == "beranda") class="active" @endif href="{{ route('index') }}"><li>BERANDA</li></a>
+                    <a @if($halaman == "ormawa") class="active" @endif href="{{ route('ormawa') }}"><li>ORMAWA</li></a>
+                    <a @if($halaman == "pendaftaran") class="active" @endif href="javascript:void(0)" onclick="modalcs()"><li>PENDAFTARAN</li></a>
+                    <a @if($halaman == "maps") class="active" @endif href="{{ route('petaunud') }}"><li>PETA UNUD</li></a>
+                    <a @if($halaman == "guidebook") class="active" @endif href="javascript:void(0)" onclick="modalcs()"><li>GUIDEBOOK</li></a>
+                    <a @if($halaman == "faq") class="active" @endif href="{{ route('faq') }}"><li>FAQ</li></a>
+                    <a @if($halaman == "galeri") class="active" @endif href="{{ route('galeri') }}"><li>GALERI</li></a>
+                      <a @if($halaman == "panitia") class="active" @endif href="{{ route('panitia') }}"><li>PANITIA</li></a>
                   </ul>
                 </div>
               </div>

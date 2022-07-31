@@ -190,7 +190,7 @@ $page="Panitia";
 
               <div class="content-panitia p-4 bg-light-dark">
 
-                <h6 class="mb-0 font-weight-bold">Krisna Yoga (Ketua)</h6>
+                <h6 class="mb-0 font-weight-bold">Valleryo Victorious (Ketua)</h6>
 
               </div>
 
