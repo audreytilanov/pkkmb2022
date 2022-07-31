@@ -164,7 +164,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfpar()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Pariwisata</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FPAR.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -250,7 +249,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfib()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Ilmu Budaya</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FIB.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -339,7 +337,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfk()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Kedokteran</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FK.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -428,7 +425,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfh()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Hukum</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FH.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -511,7 +507,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescft()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Teknik</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FT.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -602,7 +597,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfp()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Pertanian</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -688,7 +682,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfeb()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Ekonomi dan Bisnis</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FEB.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -720,12 +713,12 @@ $page="Ormawa";
                           </div>
                           <div class="answer">
                               <p>
-                                1. PROGRAM STUDI D3 AKUNTANSI
-                                2. PROGRAM STUDI D3 PERPAJAKAN
-                                3. PROGRAM STUDI D3 PEMASARAN
-                                4. PROGRAM STUDI S1 EKONOMI PEMBANGUNAN
-                                5. PROGRAM STUDI S1 MANAJEMEN
-                                6. PROGRAM STUDI S1 AKUNTANSI
+                                1. PROGRAM STUDI D3 AKUNTANSI <br>
+                                2. PROGRAM STUDI D3 PERPAJAKAN<br>
+                                3. PROGRAM STUDI D3 PEMASARAN<br>
+                                4. PROGRAM STUDI S1 EKONOMI PEMBANGUNAN<br>
+                                5. PROGRAM STUDI S1 MANAJEMEN<br>
+                                6. PROGRAM STUDI S1 AKUNTANSI<br>
                               </p>
                           </div>
                       </div>
@@ -776,7 +769,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfapet()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Peternakan</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FAPET.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -858,7 +850,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfmipa()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Matematika dan Ilmu Pengetahuan Alam</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/Fmipa.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -946,7 +937,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfkh()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Kedokteran Hewan</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FKH.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -1027,7 +1017,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescftp()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Teknologi Pertanian</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FTP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -1111,7 +1100,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfisip()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Ilmu Sosial dan Ilmu Politik</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FISIP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -1198,7 +1186,6 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfkp()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Kelautan dan Perikanan</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/FKP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -1328,11 +1315,16 @@ $page="Ormawa";
                 <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
               </div>
               <div class="pi col-sm-12 col-lg-6 py-2 my-auto aos-init aos-animate"  data-aos="fade-right" data-aos-delay="300">
-                <a href="/ukm">
+                <a onclick="modalcs()">
                   <div class="info">
-                    <h1>INFO UKM</h1>
+                    <h1>PENDAFTARAN</h1>
                   </div>
                 </a>      
+                <a href="/ukm">
+                    <div class="info">
+                      <h1>INFO UKM</h1>
+                    </div>
+                  </a>   
               </div>
               
             </div>

@@ -44,7 +44,7 @@ $page="Panitia";
         
  <div class="container" >
 
-        <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right" ><span>PANITIA STUDENT DAY UNIVERSITAS UDAYANA 2021</span></h1>
+        <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right" ><span>PANITIA PKKMB UNIVERSITAS UDAYANA 2022</span></h1>
           <br>
           <br>
         <a class="down-panitia" href="#sc-panitia"  style="font-weight:bold;cursor: pointer; padding: 10px 30px; border: 2px solid rgba(0,0,0.8); display:inline-block;color:#000!important; background-color:#fff;box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.4); transform:scale(1);transition: all .5s ease;">
@@ -76,7 +76,7 @@ $page="Panitia";
 
                   <h2 class="mb-2 font-weight-bold">STEERING COMMITTEE</h2>
 
-                  <p class="text-muted para-desc mx-auto mb-0">Penasihat dan Pengarah dalam Student Day 2022 Universitas Udayana</p>
+                  <p class="text-muted para-desc mx-auto mb-0">Penasihat dan Pengarah dalam PKKMB 2022 Universitas Udayana</p>
 
                 </div>
 
@@ -90,7 +90,7 @@ $page="Panitia";
 
           @if ($list_panitia->divisi == "sc")
 
-          <div class="col-lg-4 col-md-4 col-12 mt-4 pt-2 aos-init aos-animate" data-aos="zoom-in-up">
+          <div class="col-lg-6 col-md-6 col-12 mt-4 pt-2 aos-init aos-animate" data-aos="zoom-in-up">
 
             <div class="team text-center rounded position-relative overflow-hidden">
 
@@ -146,7 +146,7 @@ $page="Panitia";
 
                   <h2 class="mb-2 font-weight-bold">INTI</h2>
 
-                  <p class="text-muted para-desc mx-auto mb-0">Pengurus dan Pengelola Utama dari Student Day 2022 Universitas Udayana</p>
+                  <p class="text-muted para-desc mx-auto mb-0">Pengurus dan Pengelola Utama dari PKKMB 2022 Universitas Udayana</p>
 
                 </div>
 
@@ -253,7 +253,7 @@ $page="Panitia";
 
                   <h2 class="mb-2 font-weight-bold">Koordinator</h2>
 
-                  <p class="text-muted para-desc mx-auto mb-0">Pengelola Sektor Tertentu dalam Operasional Student Day 2021 Universitas Udayana</p>
+                  <p class="text-muted para-desc mx-auto mb-0">Pengelola Sektor Tertentu dalam Operasional PKKMB 2022 Universitas Udayana</p>
 
                 </div>
 
@@ -325,7 +325,7 @@ $page="Panitia";
 
                   <h2 class="mb-2 font-weight-bold">Web Developer</h2>
 
-                  <p class="text-muted para-desc mx-auto mb-0">Pembuatan dan Pemeliharaan Website Student Day 2021 Universitas Udayana</p>
+                  <p class="text-muted para-desc mx-auto mb-0">Pembuatan dan Pemeliharaan Website PKKMB 2022 Universitas Udayana</p>
 
                 </div>
 

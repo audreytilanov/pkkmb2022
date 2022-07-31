@@ -3,10 +3,10 @@
     <head>
       <meta charset="utf-8">
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
-      <meta name="keywords" content="Student Day 2021" />
-      <meta name="description" content="Student Day 2021">
-      <meta name="author" content="Tim Web Development 3D SDU 2021">
-      <title><?= $page ?> | SDU 2022 </title>
+      <meta name="keywords" content="PKKMB 2022" />
+      <meta name="description" content="PKKMB 2022">
+      <meta name="author" content="Tim Web Development 3D PKKMB 2022">
+      <title><?= $page ?> | PKKMB 2022 </title>
 
       <!-- Favicon --- Perubahan dikit di icon (tak tambah2 in aja)-->
       <link rel="icon" href="{{asset('asset/logo/LOGO KAYON Stroke.png')}}" type="image/png" />
@@ -37,7 +37,9 @@
         <header>
           <div class="container">
             <div id="judul">
-              <img width="140" src="{{URL::asset('asset/2022/logo.png')}}" alt="">
+              <a href="{{ route('index') }}">
+                <img width="140" src="{{URL::asset('asset/2022/logo.png')}}" alt="">
+              </a>
             </div>
             <nav>
               <ul>
