@@ -88,8 +88,8 @@ $page="Home";
                   </div>
                   <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="500">
                     <div class="infotime">
-                      <h3 class="titletime">HARI-H PKKMB - 8-9 AGUSTUS</h3>
-                      <p>PKKMB 2022 merupakan puncak kegiatan para mahasiswa baru dan tahap terakhir sebelum akhirnya resmi menjadi mahasiswa di Universitas Udayana.</p>
+                        <h3 class="titletime">HARI-H PKKMB - 8-9 AGUSTUS</h3>
+                        <p>PKKMB 2022 merupakan puncak kegiatan para mahasiswa baru dan tahap terakhir sebelum akhirnya resmi menjadi mahasiswa di Universitas Udayana.</p>
                     </div>
                   </div>
                 </div>

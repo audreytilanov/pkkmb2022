@@ -668,7 +668,7 @@ a:hover{
 
 .base_fpar {
     position: absolute;
-    width: 10%;
+    width: 12%;
     height: 100%;
     margin-top: 32%;
     left: 16%;
@@ -683,7 +683,7 @@ a:hover{
 
 .base_ft {
     position: absolute;
-    width: 10%;
+    width: 13%;
     height: 100%;
     margin-top: 21.5%;
     left: 24.5%;
@@ -735,7 +735,7 @@ a:hover{
 
 .base_ftp {
     position: absolute;
-    width: 11%;
+    width: 12%;
     height: 100%;
     margin-top: 31%;
     left: 75%;
@@ -748,7 +748,7 @@ a:hover{
 
 .base_fmipa {
     position: absolute;
-    width: 10.3%;
+    width: 12%;
     height: 100%;
     margin-top: 44%;
     left: 72%;
@@ -813,9 +813,9 @@ a:hover{
 
 .base_fkh {
     position: absolute;
-    width: 15%;
+    width: 13%;
     height: 100%;
-    margin-top: 67%;
+    margin-top: 68%;
     left: 28%;
 }
 
@@ -826,7 +826,7 @@ a:hover{
 
 .base_fk {
     position: absolute;
-    width: 15%;
+    width: 13%;
     height: 100%;
     margin-top: 76.5%;
     left: 42.6%;

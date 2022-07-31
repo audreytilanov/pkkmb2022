@@ -1239,7 +1239,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
-                                Ketua	BEM FKP Unud	:Teofilus Christofan 
+                                Ketua	BEM FKP Unud	:Teofilus Christofan <br>
                                 Instagram			:@bemfkp_unud<br>
                               </p>
                               <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/FKP.jpg') }}" alt="">
