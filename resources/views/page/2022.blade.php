@@ -28,20 +28,20 @@ $page="Home";
       <!-- Start Section Penjelasan Logo -->
         <section id="desc-logo" style="background-image: url('../asset/umum/bg-penjelasan.jpg');background-size: cover;background-attachment: fixed;color: #fff;">
             <div class="container">
-                <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right">
+                <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
                     <span class="font-weight-normal"></span><span>PKKMB 2022 UNIVERISTAS UDAYANA</span>
                 </h1>
                 <div class="row">
                     <div class="col-sm-12 col-lg-12 py-2 my-auto text-center">
-                        <img onclick="modaldesclogo()" src="{{ URL::Asset('asset/2022/logo.png') }}" alt="Logo SDU" class="img-fluid aos-init aos-animate" style="cursor: pointer;" data-aos="zoom-in-up" data-aos-delay="200">
+                        <img onclick="modaldesclogo()" src="{{ URL::Asset('asset/2022/logo.png') }}" alt="Logo SDU" class="img-fluid aos-init aos-animate" style="cursor: pointer;" data-aos="zoom-in-up" data-aos-delay="300">
                     </div>
-                    <div class="col-sm-12 col-lg-12 py-2 my-auto text-center aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
-                        <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:50px;">&emsp;&emsp;&emsp;<b>PKKMB 2022 Universitas Udayana</b> merupakan akronim dari Pengenalan Kehidupan Kampus bagi Mahasiswa Baru khususnya di Universitas Udayana. Berbeda dari tahun sebelumnya yang mengusung nama kegiatan  Student Day Universitas Udayana, tahun ini masa orientasi mahasiswa baru hadir dengan nama yang baru, yaitu PKKMB 2022 Universitas Udayana. Kegiatan ini hadir sebagai wadah untuk menanamkan nilai-nilai positif dalam diri seorang mahasiswa dan merupakan titik awal dalam dunia perkuliahan. Pada titik ini, mahasiswa akan memperoleh berbagai cuplikan mengenai kehidupan di kampus yang harapannya dapat membantu mahasiswa baru dalam mengenali, memahami, dan mengembangkan diri melalui seluruh rangkaian kegiatan yang telah dirancang.<br>
+                    <div class="col-sm-12 col-lg-12 py-2 my-auto text-center">
+                        <p class="aos-init aos-animate" data-aos="fade-right" data-aos-delay="300" style="margin-top:50px;">&emsp;&emsp;&emsp;<b>PKKMB 2022 Universitas Udayana</b> merupakan akronim dari Pengenalan Kehidupan Kampus bagi Mahasiswa Baru khususnya di Universitas Udayana. Berbeda dari tahun sebelumnya yang mengusung nama kegiatan  Student Day Universitas Udayana, tahun ini masa orientasi mahasiswa baru hadir dengan nama yang baru, yaitu PKKMB 2022 Universitas Udayana. Kegiatan ini hadir sebagai wadah untuk menanamkan nilai-nilai positif dalam diri seorang mahasiswa dan merupakan titik awal dalam dunia perkuliahan. Pada titik ini, mahasiswa akan memperoleh berbagai cuplikan mengenai kehidupan di kampus yang harapannya dapat membantu mahasiswa baru dalam mengenali, memahami, dan mengembangkan diri melalui seluruh rangkaian kegiatan yang telah dirancang.<br>
                         <br>
                         &emsp;&emsp;&emsp;Melihat peran penting mahasiswa dalam tatanan masyarakat untuk memajukan bangsa dan negara, maka PKKMB 2022 Universitas Udayana hadir untuk membekali mahasiswa baru agar mampu menghadapi kehidupan kampus serta melakukan penanaman nilai, gagasan, pembentukan karakter, dan pengembangan keterampilan soft skills dan hard skills dengan harapan dapat menjadi penunjang dalam mengembangkan kemampuan mahasiswa dalam menjalani proses perkuliahan dan bahkan dalam kehidupan bermasyarakat dan bernegara. 
                         </p>
                         <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
-                        <button onclick="modaldesclogo()" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:10px; text-align:justify;">
+                        <button class="aos-init aos-animate"  data-aos="zoom-in-up" data-aos-delay="300" onclick="modaldesclogo()" style="margin-top:10px; text-align:justify;">
                             <strong style="cursor:pointer;">Selengkapnya</strong></span>
                         </button>
                     </div>

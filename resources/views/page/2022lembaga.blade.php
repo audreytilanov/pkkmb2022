@@ -90,7 +90,7 @@ $page="Ormawa";
       <!-- Start Page Ormawa -->
       <!-- Start Section Fakultas -->
       <section id="coverlembaga">
-        <section id="desc-fakultas">
+        <section id="desc-fakultas" class="aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="1000">
           <div class="container">
             <div class="row header-page" style="margin-bottom: 80px;">
               <div class="col my-auto">
@@ -149,7 +149,7 @@ $page="Ormawa";
               <div id="fk-desc" class="col-sm-12 col-lg-6 py-2 my-auto aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
                 <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:50px;text-align:justify;">&emsp;&emsp;&emsp;&emsp;Universitas Udayana memiliki 13 fakultas yang terdiri dari Fakultas Ilmu Budaya, Fakultas Kedokteran, Fakultas Hukum, Fakultas Teknik, Fakultas Pertanian, Fakultas Ekonomi dan Bisnis, Fakultas Peternakan, Fakultas Matematika dan Ilmu Pengetahuan Alam, Fakultas Kedokteran Hewan, Fakultas Teknologi Pertanian, Fakultas Pariwisata, Fakultas Ilmu Sosial dan Ilmu Politik, dan Fakultas Kelautan dan Perikanan dimana setiap fakultas memiliki lembaga kemahasiswaan yang berfungsi sebagai wadah aspirasi dan pengembangan diri bagi mahasiswa di setiap fakultas, lembaga tersebut adalah Badan Eksekutif Mahasiswa (BEM) dan Dewan Perwakilan Mahasiswa (DPM).
                 </p>
-                <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
+                <hr data-aos="fade-right" data-aos-delay="300" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
                 <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:10px; text-align:justify;">Untuk info lebih lanjut mengenai Fakultas di Universitas Udayana, <strong>klik pada gambar logo</strong></p>
               </div>
             </div>
@@ -1294,7 +1294,7 @@ $page="Ormawa";
 
                 <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:50px;text-align:justify;font-size:20px;">&emsp;&emsp;&emsp;&emsp;Selain Forum Agama, terdapat Forum Paguyuban yang tersebar di Universitas Udayana yaitu GAJAYANA, KMOSSAK, IKMM, IKAMI, PMBD, IMMAPA, PAMANAHAN, IMSU, TONGKONAN, dan PMNTT. 
                 </p>
-                <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #000;" class="aos-init aos-animate">
+                <hr data-aos="fade-right" data-aos-delay="300" style="border-top: 5px solid #000;" class="aos-init aos-animate">
                 <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:10px; text-align:justify;font-size:20px;">Untuk info lebih lanjut mengenai <strong class="show_info_paguyuban" style="cursor:pointer;">Paguyuban di Universitas Udayana</strong>, klik pada gambar peta berikut</p>
               </div>
             </div>
@@ -1309,10 +1309,10 @@ $page="Ormawa";
             <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal">UKM di </span><span>Universitas Udayana</span></h1>
             <div class="row">
               <div class="col-sm-12 col-lg-6 py-2 my-auto aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
-                <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:50px;text-align:justify;">&emsp;&emsp;&emsp;&emsp;
+                <p data-aos="zoom-in-up" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:50px;text-align:justify;">&emsp;&emsp;&emsp;&emsp;
                   Unit Kegiatan Mahasiswa (UKM) merupakan ruang kemahasiswaan yang bertujuan untuk mengembangkan minat, bakat, dan keterampilan tertentu bagi anggota-anggotanya. Lembaga ini merupakan mitra organisasi kemahasiswaan di internal kampus seperti, Senat Mahasiswa dan Badan Eksekutif Mahasiswa, baik yang berada di tingkat program studi, jurusan, maupun universitas.
                 </p>
-                <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
+                <hr data-aos="fade-right" data-aos-delay="300" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
               </div>
               <div class="pi col-sm-12 col-lg-6 py-2 my-auto aos-init aos-animate"  data-aos="fade-right" data-aos-delay="300">
                 <a onclick="modalcs()">

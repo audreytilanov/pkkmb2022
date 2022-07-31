@@ -36,7 +36,7 @@ $page = "Info UKM";
             <h1 style="padding-top:180px;padding-bottom:50px;" class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal">UKM di </span><span>Universitas Udayana</span></h1>
             <div class="row hov">
                 @foreach ($ukm as $detail)
-                    <div data-aos="fade-right" class="col-sm-6 col-md-4 col-lg-3" style="position:relative; margin:20px;padding:20px;display: flex;align-items:center;justify-content:center; text-align: center;color:black;border-radius:20px;box-shadow: 3px 2px 8px 2px rgba(0,0,0,.5);background: rgba( 255, 255, 255, 0.42 );
+                    <div class="col-sm-6 col-md-4 col-lg-3 aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400" style="position:relative; margin:20px;padding:20px;display: flex;align-items:center;justify-content:center; text-align: center;color:black;border-radius:20px;box-shadow: 3px 2px 8px 2px rgba(0,0,0,.5);background: rgba( 255, 255, 255, 0.42 );
                     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
                     backdrop-filter: blur( 8px );
                     -webkit-backdrop-filter: blur( 6.5px );
