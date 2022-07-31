@@ -38,7 +38,7 @@ $page = "Info UKM"
         @else
         <img style="width:30%;height:auto;margin:auto;margin-top:53px;display: grid;
         justify-content: center;
-        align-content: center;border-radius:50%;" src="{{ URL::asset('asset/ukm/'.$ukm->foto.'') }}" alt="...">
+        align-content: center;border-radius:50%;" src="{{ URL::asset('asset/ukm/new'.$ukm->foto.'') }}" alt="...">
         @endif
     <p class="col-md-12" style="text-align: justify;margin-top:50px;">&emsp;&emsp;&emsp;&emsp;{!! $ukm->deskripsi !!}</p><br>
     <h1 style="text-align: center;" class="col-md-12">Prestasi</h1>
