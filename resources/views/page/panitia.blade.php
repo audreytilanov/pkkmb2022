@@ -234,20 +234,6 @@ $page="Panitia";
 
                   <li class="list-inline-item">
 
-                    <a href="<?php echo $list_panitia->contact ?>" target="_blank" class="rounded">
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram fea icon-sm fea-social p-1">
-
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-
-                      </svg>
-
-                    </a>
-
                   </li>  
 
                 </ul><!--end icon-->
@@ -310,7 +296,7 @@ $page="Panitia";
 
           <div class="col-lg-4 col-md-4 col-12 mx-auto  mt-4 pt-2 aos-init aos-animate" data-aos="zoom-in-up" >
 
-            <div class="team card-koor text-center rounded position-relative overflow-hidden" style="cursor:pointer"  data-title-panitia ='Anggota Divisi <?php echo $list_panitia->divisi ?>' data-body-panitia='<?php echo $list_panitia->anggota ?>'>
+            <div class="team card-koor text-center rounded position-relative overflow-hidden" style="cursor:pointer">
 
               <div class="position-relative overflow-hidden m-2">    
 
@@ -319,20 +305,6 @@ $page="Panitia";
                 <ul class="list-unstyled team-social social-icon social mb-0 bg-white pt-2">
 
                   <li class="list-inline-item">
-
-                    <a href="<?php echo $list_panitia->contact ?>" target="_blank" class="rounded">
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram fea icon-sm fea-social p-1">
-
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-
-                      </svg>
-
-                    </a>
 
                   </li>  
 
@@ -396,7 +368,7 @@ $page="Panitia";
 
               <div class="position-relative overflow-hidden m-2">    
 
-                <img width="250px" src="../asset/panitia/web dev/Audrey jancuk.png" class="img-fluid" alt="">
+                <img width="250px" src="../asset/panitia/web dev/Audrey.png" class="img-fluid" alt="">
 
                 <ul class="list-unstyled team-social social-icon social mb-0 bg-white pt-2">
 
@@ -424,7 +396,7 @@ $page="Panitia";
 
               <div class="content-panitia p-4 bg-light-dark">
 
-                <h6 class="mb-0 font-weight-bold">Boy Wirawan</h6>
+                <h6 class="mb-0 font-weight-bold">Audrey Tilanov</h6>
 
               </div>
 
@@ -440,7 +412,7 @@ $page="Panitia";
 
               <div class="position-relative overflow-hidden m-2">    
 
-                <img width="250px" src="../asset/panitia/web dev/gita-02.png" style="filter:brightness(0.8)" class="img-fluid" alt="">
+                <img width="250px" src="../asset/panitia/web dev/Taksa.png" style="filter:brightness(0.8)" class="img-fluid" alt="">
 
                 <ul class="list-unstyled team-social social-icon social mb-0 bg-white pt-2">
 
@@ -468,51 +440,7 @@ $page="Panitia";
 
               <div class="content-panitia p-4 bg-light-dark">
 
-                <h6 class="mb-0 font-weight-bold">Galuh Gita</h6>
-
-            </div>
-
-          </div>
-
-        </div><!--end col-->
-
-
-
-        <div class="col-lg-4 col-md-4 col-12 mt-4 pt-2 aos-init aos-animate" data-aos="zoom-in-up" >
-
-          <div class="team text-center rounded position-relative overflow-hidden">
-
-            <div class="position-relative overflow-hidden m-2">    
-
-              <img width="250px" src="../asset/panitia/web dev/dikiniboss.png" class="img-fluid" alt="">
-
-              <ul class="list-unstyled team-social social-icon social mb-0 bg-white pt-2">
-
-                <li class="list-inline-item">
-
-                  <a href="https://www.instagram.com/dyudhani/" target="_blank" class="rounded">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram fea icon-sm fea-social p-1">
-
-                      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-
-                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-
-                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-
-                    </svg>
-
-                  </a>
-
-                </li>  
-
-              </ul><!--end icon-->
-
-            </div>
-
-            <div class="content-panitia p-4 bg-light-dark">
-
-              <h6 class="mb-0 font-weight-bold">Dicky Umardhani</h6>
+                <h6 class="mb-0 font-weight-bold">Taksa Wibawa</h6>
 
             </div>
 

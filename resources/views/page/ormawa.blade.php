@@ -36,7 +36,7 @@ $page="Ormawa";
         }
 
         .info{
-          background-image: url('../asset/umum/ukm_info.jpg');
+          /* background-image: url('../asset/umum/ukm_info.jpg'); */
           width:400px;
           height:150px;
           border-radius: 100px;
@@ -146,16 +146,14 @@ $page="Ormawa";
               <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
             </div>
             <div class="pi col-sm-12 col-lg-6 py-2 my-auto aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
-              {{-- <a href="#" onclick="modalcomingsoon2()">
+              <a href="#" onclick="modalcomingsoon2()">
               <div class="pendaftaran">
                 
               </div>
-            </a>   --}}
-              <a href="/ukm">
-                <div class="info">
-                  
-                </div>
-              </a>      
+            </a>  
+            <a onclick="modaldesclogo()" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:10px; text-align:justify;">
+              <strong style="cursor:pointer;">Selengkapnya</strong></span>
+            </a>    
             </div>
             
           </div>

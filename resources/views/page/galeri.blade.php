@@ -73,7 +73,7 @@ $page="Galeri";
 </section>
 <section id="list_galeri">
 
-    <div class="container">
+    <div class="containers">
 
         <div class="judul">
 
@@ -86,9 +86,6 @@ $page="Galeri";
 
 
         <div class="gridywrap">
-
-
-
             <div class="gridy-2 gridyhe-1">
 
                 <div class="gridimg" style="background-image: url('../asset/gallery/1.jpg')">&nbsp;</div>
@@ -307,77 +304,31 @@ $page="Galeri";
                 </div>
 
             </div>
-
-
-
             <div class="gridy-1 gridyhe-1">
-
                 <div class="gridimg" style="background-image: url('../asset/gallery/12.jpg')">&nbsp;</div>
-
                 <a class="venobox" href="asset/gallery/l 17.jpg"><img src="asset/gallery/l 17.jpg" alt="image alt"/></a>
-
-
-
                 <div class="gridinfo">
-
                     <h3></h3>
-
                     <a class="venobox grid-btn grid-more" href="asset/gallery/12.jpg" ><span>More</span> <i class="fa fa-plus"></i></a>
-
                 </div>
-
             </div>
-
-
-
             <div class="gridy-2 gridyhe-1">
-
                 <div class="gridimg" style="background-image: url('../asset/gallery/13.jpg')">&nbsp;</div>
-
                 <a class="venobox" href="asset/gallery/l 17.jpg"><img src="asset/gallery/l 17.jpg" alt="image alt"/></a>
-
-
-
                 <div class="gridinfo">
-
                     <h3></h3>
-
                     <a class="venobox grid-btn grid-more" href="asset/gallery/13.jpg" ><span>More</span> <i class="fa fa-plus"></i></a>
-
                 </div>
-
             </div>
-
-
-
             <div class="gridy-1 gridyhe-1">
-
                 <div class="gridimg" style="background-image: url('../asset/gallery/14.jpg')">&nbsp;</div>
-
                 <a class="venobox" href="asset/gallery/l 17.jpg"><img src="asset/gallery/l 17.jpg" alt="image alt"/></a>
-
-
-
                 <div class="gridinfo">
-
                     <h3></h3>
-
                     <a class="venobox grid-btn grid-more" href="asset/gallery/14.jpg" ><span>More</span> <i class="fa fa-plus"></i></a>
-
                 </div>
-
             </div>
-
-
-
         </div>
-
     </div>
-
 </section>
-
-
-
-
-
 @endsection

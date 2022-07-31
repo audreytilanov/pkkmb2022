@@ -21,12 +21,17 @@ $page="Ormawa";
         }
 
         .pendaftaran{
-          background-image: url('../asset/umum/ukm_pendaftaran.jpg');
+          /* background-image: url('../asset/umum/ukm_pendaftaran.jpg'); */
           width:400px;
           height:150px;
           border-radius: 100px;
           background-size:cover;
+          font-weight: 800;
+          font-size: 25px;
+          text-align: center;
           transition: 0.2s ease;
+          margin: auto;
+          padding: auto;
           cursor: pointer;
           margin-top: 50px;
         }
@@ -37,19 +42,32 @@ $page="Ormawa";
         }
 
         .info{
-          background-image: url('../asset/umum/ukm_info.jpg');
+          /* background-image: url('../asset/umum/ukm_info.jpg'); */
           width:400px;
-          height:150px;
+          font-weight: 500;
+          text-align: center;
+          padding: auto;
+          margin: auto;
+          font-size: 25px;
           border-radius: 100px;
           background-size:cover;
           transition: 0.2s ease;
           cursor: pointer;
+          color: white;
+          border: 5px solid white;
+          background-color: #1c3a7d;
           margin-top: 30px;
         }
 
+        .info h1{
+            padding: 10px 20px 10px 20px;
+        }
+
         .info:hover{
-          border:5px solid white;
+          border:5px solid #395ead;;
           z-index: 2;
+          background-color: white;
+          color: #1c3a7d;
         }
 
         @media only screen and (min-width: 0px) and (max-width:500px){ 
@@ -146,7 +164,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfpar()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Pariwisata</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fpar.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FPAR.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -199,17 +217,22 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
-                              <p>
-                                Ketua BEM FPAR Unud	: Dana Arta<br>
-                                IG BEM  FPAR Unud		: @bemfpar_unud
-                              </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fpar.png') }}" alt="">
+                            <div style="display: flex;justify-content:center;align-items:center;">
+                                <p>
+                                    Ketua BEM FPAR Unud	: Dana Arta<br>
+                                    IG BEM  FPAR Unud		: @bemfpar_unud
+                                  </p>
+                                  <img style="width: 20%!important" src="{{ URL::asset('asset/2022/bem/FPAR.png') }}" alt="">
+                            </div>
+                              
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BPM FPAR Unud		: I Kadek Aditya Nara Kusuma<br>
                                 IG BPM				: @bemfpar_unud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fpar.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FPAR.png') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -227,7 +250,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfib()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Ilmu Budaya</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fib.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FIB.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -283,18 +306,22 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua		: I Gusti Ngurah Karista Oda Prihandana<br>
                                 Instagram	: @smfib.unud	
 
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/FIB.jpeg') }}" alt="">
+                              <img style="width:20%!important;" width="250px" src="{{ URL::asset('asset/2022/bem/FIB.jpeg') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua		: Desak Made Tia Kusuma Paramita<br>
                                 Instagram	: @bpmfib.unud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/FIB.jpg') }}" alt="">
+                              <img style="width:20%!important;" src="{{ URL::asset('asset/2022/dpm/FIB.jpg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -312,7 +339,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfk()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Kedokteran</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fk.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FK.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -367,19 +394,23 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BEM FK Unud 	: Eduardo Kenjiro<br>
                                 IG 			: @bemfkunud 
 
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fk.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/bem/FK.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua DPM FK Unud 	: Aurelius Filibertus Nong Vito<br>
                                 IG			: @dpmfkunud
 
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fk.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FK.png') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -397,7 +428,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfh()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Hukum</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fh.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FH.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -446,23 +477,23 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 BEM<br>
                                 Ketua		: I Gusti Agung Arya Suryaningrat<br>
                                 Instagram	 : @bemfhunud
-
-
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fh.jpg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/bem/FH.jpg') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 DPM<br>
                                 Ketua		: I Gusti Nyoman Redi Citragatra<br>
                                 Instagram 	: @dpmfhudayana
-
-
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fh.jpeg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FH.jpeg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -480,7 +511,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescft()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Teknik</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/ft.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FT.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -537,19 +568,23 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 BEM<br>
                                 Ketua		:I Nyoman Hary Putra Darma<br>
                                 Instagram	: @smft_unud
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/ft.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/bem/FT.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 DPM<br>
                                 Ketua		:Cokorda Gd Dwipayana<br>
                                 Instagram	: @smft_unud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/ft.jpg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FT.jpg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -567,7 +602,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfp()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Pertanian</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fp.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -619,19 +654,23 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 BEM<br>
                                 Ketua BEM	: Kadek Wira Pradana<br>
                                 IG BEM	: @bemfpunud
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fp.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/bem/FP.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 DPM<br>
                                 Ketua DPM	: I Gusti Ngurah Wahyu Arsadiarta<br>
                                 IG DPM	: @dpmfpunud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fp.jpg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FP.jpg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -649,7 +688,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfeb()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Ekonomi dan Bisnis</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/feb.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FEB.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -703,19 +742,23 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 BEM<br>
                                 KETUA BEM FEB Unud	: I Putu Diva Khrisna Aditya<br>
                                 IG BEM 			: @bemfebunud
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/feb.png') }}" alt="">
+                              <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/FEB.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 DPM<br>
                                 KETUA DPM FEB Unud	:I Wayan Mahesa Putra<br>
                                 IG DPM			: @dpmfebunud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/feb.jpg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FEB.jpg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -733,7 +776,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfapet()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Peternakan</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fapet.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FAPET.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -782,18 +825,22 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BEM FAPET	Unud	: Ni Kadek Siska Padmara Dewi<br>
                                 Ig 				: @bemkmfapetunud
 
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fapet.png') }}" alt="">
+                              <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/FAPET.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua DPM FAPET	Unud	: Ketut Wahyu Prasetya<br>
                                 IG				: @dpmkmfapetudayana
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fapet.jpeg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FAPET.jpeg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -811,7 +858,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfmipa()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Matematika dan Ilmu Pengetahuan Alam</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fmipa.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/Fmipa.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -866,17 +913,21 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BEM FMIPA Unud	: Eka Saputra<br>
                                 IG BEM FMIPA Unud	: @bemfmipaunud
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fmipa.jpg') }}" alt="">
+                              <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/Fmipa.jpg') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua DPM FMIPA Unud	: Raihan Arandi<br>
                                 IG DPM FMIPA Unud	: @dpmfmipaunud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fmipa.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/Fmipa.png') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -895,7 +946,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfkh()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Kedokteran Hewan</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fkh.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FKH.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -944,17 +995,21 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BEM FKH Unud		: I Dewa Putu Bagus Mertha Anom <br>
                                 IG BEM	: @bemfkhunud
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fkh.png') }}" alt="">
+                              <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/FKH.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua DPM FKH Unud		: Made Gede Adi Surya Saputra<br>
                                 Instagram	: @dpmfkhunud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fkh.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FKH.png') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -972,7 +1027,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescftp()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Teknologi Pertanian</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/ftp.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FTP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -1024,17 +1079,21 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BEM FTP Unud: Achmad Gian Akbar Dzulkarnain<br>
                                 Instagram	: @bemftpunud
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/ftp.png') }}" alt="">
+                              <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/FTP.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BPM FTP Unud	: I Gusti Ayu Ari Meltrani<br>
                                 Instagram	: @bpmftpunud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/ftp.png') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FTP.png') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -1052,7 +1111,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfisip()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Ilmu Sosial dan Ilmu Politik</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fisip.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FISIP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -1107,17 +1166,21 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua BEM FISIP Unud	: I Ketut Wiratama Arimbawa<br>
                                 Instagram			: @bemfisipunud
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fisip.png') }}" alt="">
+                              <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/FISIP.png') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua DPM FISIP Unud	: Putu Mas Anandania Pradnya Paramita<br>
                                 Instagram			: @dpmfisipunud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fisip.jpg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FISIP.jpg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -1135,7 +1198,7 @@ $page="Ormawa";
               <div class="close-btn" onclick="nmodaldescfkp()">×</div>
                   <div class="content-datail-modal"></div>
                       <h1 class="title">Fakultas Kelautan dan Perikanan</h1>
-                      <img src="{{ URL::asset('asset/2022/fk/fkp.png') }}" alt="">
+                      <img src="{{ URL::asset('asset/2022/fk/FKP.png') }}" alt="">
                       <div class="faq">
                           <div class="question">
                               <h2 class="title" style="text-align:left; cursor:pointer;">Sejarah</h2>
@@ -1187,17 +1250,21 @@ $page="Ormawa";
                               </svg>
                           </div>
                           <div class="answer">
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua	BEM FKP Unud	:Teofilus Christofan 
                                 Instagram			:@bemfkp_unud<br>
                               </p>
-                              <img width="250px" src="{{ URL::asset('asset/2022/bem/fkp.jpg') }}" alt="">
+                              <img style="width: 20%!important" width="250px" src="{{ URL::asset('asset/2022/bem/FKP.jpg') }}" alt="">
+                            </div>
                               <br>
+                            <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
                                 Ketua	DPM FKP Unud	: Fauzan  Rahmat  S.<br>
                                 Instagram			:@dpmfkp_unud
                               </p>
-                              <img src="{{ URL::asset('asset/2022/dpm/fkp.jpg') }}" alt="">
+                              <img style="width: 20%!important" src="{{ URL::asset('asset/2022/dpm/FKP.jpg') }}" alt="">
+                            </div>
                           </div>  
                           
                       </div>
@@ -1229,11 +1296,15 @@ $page="Ormawa";
                     @endforeach
                   </div>
                 </div>
+                <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal"><span>Forum Agama</span></h1>
+
                 <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:50px;text-align:justify;font-size:20px;">&emsp;&emsp;&emsp;&emsp;Universitas Udayana memiliki 5 Forum Agama  yaitu, Forum Persatuan Mahasiswa Islam (FPMI), Keluarga Mahasiswa Katolik St. Albertus Agung (KMK), Forum Persaudaraan Mahasiswa Hindu Dharma (FPMHD), Keluarga Besar Mahasiswa Kristen Universitas Udayana (KBMK), dan Forum Keluarga Mahasiswa Buddhis Universitas Udayana (FKMBU).
                 </p>
               </div>
               <div class="col-sm-12 col-lg-6 py-2 my-auto text-center" >
                 <img  src="{{asset('asset/2022/ormawa/paguyuban.png')}}" alt="Logo 13 Fakultas" class="img-fluid aos-init aos-animate maps-paguyuban" style="cursor: pointer; filter:brightness(1.2);margin-top:60px;" data-aos="zoom-in-up" data-aos-delay="500" >
+                <h1 style="margin-top: 100px" class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal"><span>Paguyuban</span></h1>
+
                 <p data-aos="fade-right" data-aos-delay="400" class="aos-init aos-animate" style="margin-top:50px;text-align:justify;font-size:20px;">&emsp;&emsp;&emsp;&emsp;Selain Forum Agama, terdapat Forum Paguyuban yang tersebar di Universitas Udayana yaitu GAJAYANA, KMOSSAK, IKMM, IKAMI, PMBD, IMMAPA, PAMANAHAN, IMSU, TONGKONAN, dan PMNTT. 
                 </p>
                 <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #000;" class="aos-init aos-animate">
@@ -1257,12 +1328,9 @@ $page="Ormawa";
                 <hr data-aos="fade-right" data-aos-delay="200" style="border-top: 5px solid #fff;" class="aos-init aos-animate">
               </div>
               <div class="pi col-sm-12 col-lg-6 py-2 my-auto aos-init aos-animate"  data-aos="fade-right" data-aos-delay="300">
-                <a href="javascript:void(0)" onclick="modalcs()">
-                <div class="pendaftaran">
-                </div>
-              </a>  
                 <a href="/ukm">
                   <div class="info">
+                    <h1>INFO UKM</h1>
                   </div>
                 </a>      
               </div>

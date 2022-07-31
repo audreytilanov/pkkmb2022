@@ -55,8 +55,17 @@ section{
     margin-right: auto;
 }
 
+.containers{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (min-width: 1200px) and (max-width:2000px){ 
-    .container {
+    .container,.containers {
         max-width:1140px;
     }
     h1.title{
@@ -68,7 +77,7 @@ section{
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199.98px){ 
-    .container {
+    .container,.containers {
         max-width:960px;
     }
     h1.title{
@@ -80,7 +89,7 @@ section{
 }
 
 @media only screen and (min-width: 768px) and (max-width:991.98px){ 
-    .container {
+    .container,.containers {
         max-width:720px;
     }
     h1.title{
@@ -94,7 +103,7 @@ section{
     }
 }
 @media only screen and (min-width: 576px) and (max-width:767.98px){ 
-    .container {
+    .container,.containers {
         max-width:540px;
     }
     h1.title{
@@ -109,7 +118,7 @@ section{
 }
 
 @media only screen and (min-width: 480px) and (max-width:575.98px){ 
-    .container {
+    .container,.containers {
         max-width:440px;
     }
     h1.title{
@@ -130,7 +139,7 @@ section{
 }
 
 @media only screen and (min-width: 0px) and (max-width:479.98px){ 
-    .container {
+    .container,.containers {
         max-width:440px;
     }
     h1.title{
@@ -500,9 +509,8 @@ a:hover{
   
   .dropdown-content a {
     color: #193574;
-    text-shadow: 1px 1px #4c4d48;
     padding: 12px 16px;
-    font-weight: 500;
+    font-weight: 800;
     text-decoration: none;
     display: block;
     z-index: 1300;
@@ -638,8 +646,8 @@ a:hover{
 .base {
     position: relative;
     margin: auto;
-    width: 40%;
-    margin-left: 7%;
+    width: 50%;
+    margin-left: 1%;
     margin-top: 50px;
     height: 35%;
 }
@@ -909,9 +917,10 @@ header nav {
 
 header .active{
 	color: #f7e783!important;
+    font-weight: 800;
 }
 header a:hover{
-	color: rgb(190, 189, 189);
+	color: #f7e783!important;
     transition: 0.2s ease;
 }
 
@@ -2904,6 +2913,11 @@ footer p{
 
 
 /* Start Maps Kampus */
+#detail-peta{
+    background: url("../asset/2022/bg/galeri.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
 #detail-peta #background{
     margin-top: 40px;
     margin-right: auto;
@@ -3684,6 +3698,9 @@ section h1.title{
 	margin-bottom: 30px;
 }
 
+.gridywrap{
+    height: 100%;
+}
 
 .gridywrap div[class*=gridy] {
   background: #eee;

@@ -9,7 +9,7 @@ $page="Home";
             <div class="container">
                 <div class="img-banner" >
                     <div data-relative-input="true" id="scene">
-                        <div data-depth="0.2"><img src="{{ URL::Asset('asset/2022/logo.png') }}" alt="logo-sdu-banner" ></div>
+                        <div class="aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="1100" data-depth="0.2"><img src="{{ URL::Asset('asset/2022/logo.png') }}" alt="logo-sdu-banner" ></div>
                     </div>
                 </div>
             </div>
@@ -58,14 +58,14 @@ $page="Home";
               <div class="col-sm-12" >
                 <h1 class="title title-animation aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal" >Lini</span> Masa</h1>
               </div>
-              <div class="timeline">
+              <div class="timeline aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="200">
                 <div class="outer">
                   <div class="cardtime">
                     <div class="infotime">
-                      <h3 class="titletime">MAHASISWA DITERIMA DI UNIVERSITAS UDAYANA</h3>
+                      <h3 class="titletime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="300">MAHASISWA DITERIMA DI UNIVERSITAS UDAYANA</h3>
                     </div>
                   </div>
-                  <div class="cardtime">
+                  <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="300">
                     <div class="infotime">
                       <h3 class="titletime">TEMU PANGUS - 25 JULI</h3>
                       <p>Temu Pangus merupakan rangkaian kegiatan pertama 
@@ -74,19 +74,19 @@ $page="Home";
                         kakak-kakak pendamping gugus.</p>
                     </div>
                   </div>
-                  <div class="cardtime">
+                  <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="300">
                     <div class="infotime">
                       <h3 class="titletime">MENTORING - 2 AGUSTUS</h3>
                       <p>Mentoring merupakan rangkaian kegiatan kedua yang dihadiri para mentor hebat dengan berbagai materi yang tentunya akan sangat berguna untuk para mahasiswa baru</p>
                     </div>
                   </div>
-                  <div class="cardtime">
+                  <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                     <div class="infotime">
                       <h3 class="titletime">CAPACITY BUILDING - 3 AGUSTUS</h3>
                       <p>Capacity Building merupakan  rangakaian kegiatan ketiga yang bertujuan untuk membentuk karakter mahasiswa baru dengan mendatangkan pembicara yang keren dan seru banget tentunya!</p>
                     </div>
                   </div>
-                  <div class="cardtime">
+                  <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="500">
                     <div class="infotime">
                       <h3 class="titletime">HARI-H PKKMB - 8-9 AGUSTUS</h3>
                       <p>PKKMB 2022 merupakan puncak kegiatan para mahasiswa baru dan tahap terakhir sebelum akhirnya resmi menjadi mahasiswa di Universitas Udayana.</p>
@@ -104,9 +104,9 @@ $page="Home";
       <!-- Start Section  Music-->
         <section id="musik" style="background-image: url('../asset/umum/bg-putih.jpg');background-size: cover;">
             <div id="musik-teks" class="text-center">
-                <h1 class="title title-animation aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal" ></span>PLAYLIST<br>PKKMB 2022 UNIVERISTAS UDAYANA</h1>
+                <h1 class="title title-animation aos-init aos-animate" data-aos-delay="300" data-aos="fade-right"><span class="font-weight-normal" ></span>PLAYLIST<br>PKKMB 2022 UNIVERISTAS UDAYANA</h1>
             </div>
-            <div id="musik-main" style="text-align: center;margin:auto;background-color: #fff;border-radius: 70px;">
+            <div id="musik-main" class="aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="300" style="text-align: center;margin:auto;background-color: #fff;border-radius: 70px;">
                 <div style="box-shadow: 30px 30px 44px -10px rgba(0, 0, 0, 0.15);border-radius:70px;">
                     <div class="player p-4" style="height: 100%;">
                         <div class="detail">

@@ -10,11 +10,11 @@ $page="Peta Unud";
 
 @section('content')
 
-    <section id="detail-peta" class="peta-bukit" style="background-color: #126b61;">
+    <section id="detail-peta" class="peta-bukit">
 
       <div class="container">
 
-        <h1 class="title text-center" style="color:#fff;">Peta Kampus Udayana</h1>
+        <h1 class="title text-center" style="padding-top:50px;">Peta Kampus Udayana</h1>
 
         <p class="text-center" style="color:#fff;">Klik node dari 3 kampus dalam peta untuk melihat maps kampus yang lebih spesifik</p>
 

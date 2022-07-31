@@ -74,7 +74,7 @@ $page="Ormawa";
       <section id="coverfaq">
         <div id="wrapperfaq">
             <h1 style="padding-bottom:50px;" class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal"></span><span>Frequently Asked Questions</span></h1>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
                     <h2 class="title" style="text-align:left; cursor:pointer;">1. Apa itu PKKMB Universitas Udayana?</h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
@@ -91,7 +91,7 @@ $page="Ormawa";
                     </p>
                 </div>
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
                     <h2 class="title" style="text-align:left;cursor:pointer;">2. Apakah PKKMB Universitas Udayana wajib diikuti?</h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
@@ -108,7 +108,7 @@ $page="Ormawa";
                     </p>
                 </div>
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
                     <h2 class="title" style="text-align:left;cursor:pointer;">3. Bagaimana bila tidak mengikuti PKKMB tahun ini?
                     </h2>
@@ -126,27 +126,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">4. Bagaimana cara mendaftar PKKMB Universitas Udayana untuk mahasiswa lama?
-                    </h2>
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path
-                        d="M3 3L21 21L39 3"
-                        stroke="black"
-                        stroke-width="7"
-                        stroke-linecap="round"
-                        />
-                    </svg>
-                </div>
-                <div class="answer">
-                    <p>&emsp;&emsp;&emsp;Bagi mahasiswa lama Universitas Udayana yang belum mengikuti atau tidak lulus dalam PKKMB Universitas Udayana, dapat mendaftar pada link sebagai berikut: bemudayana.id/DaftarPKKMBMala22.
-                    </p>
-                </div>  
-            </div>
-            <div class="faq">
-                <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">5. Apa itu Gugus PKKMB?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">4. Apa itu Gugus PKKMB?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -162,9 +144,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">6. Apa itu Pendamping Gugus – Pangus?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">5. Apa itu Pendamping Gugus – Pangus?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -180,9 +162,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">7. Bagaimana cara mendapatkan nomor Gugus?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">6. Bagaimana cara mendapatkan nomor Gugus?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -198,9 +180,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">8. Bagaimana cara masuk grup gugus PKKMB?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">7. Bagaimana cara masuk grup gugus PKKMB?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -216,9 +198,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">9. PKKMB Universitas Udayana dilaksanakan online atau offline?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">8. PKKMB Universitas Udayana dilaksanakan online atau offline?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -234,9 +216,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">10. Dimana PKKMB Universitas Udayana akan dilaksanakan?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">9. Dimana PKKMB Universitas Udayana akan dilaksanakan?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -252,9 +234,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">11. Kapan kegiatan PKKMB Universitas Udayana dilaksanakan?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">10. Kapan kegiatan PKKMB Universitas Udayana dilaksanakan?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -270,9 +252,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">12. Apa saja rangkaian kegiatan PKKMB Universitas Udayana?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">11. Apa saja rangkaian kegiatan PKKMB Universitas Udayana?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -288,9 +270,9 @@ $page="Ormawa";
                     </p>
                 </div>  
             </div>
-            <div class="faq">
+            <div class="faq aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="question">
-                    <h2 class="title" style="text-align:left;cursor:pointer;">13. Dimana bisa mendapat informasi terbaru terkait PKKMB?
+                    <h2 class="title" style="text-align:left;cursor:pointer;">12. Dimana bisa mendapat informasi terbaru terkait PKKMB?
                     </h2>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path
@@ -312,14 +294,4 @@ $page="Ormawa";
         </div>
     </div>
       </section>
-
-
-
-
-
-    
-
-
-
-
 @endsection

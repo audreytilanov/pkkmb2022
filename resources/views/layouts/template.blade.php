@@ -115,7 +115,7 @@
 
       <!-- Main content -->
       <main class="content-page" data-aos-delay="400"> 
-        <div class="loader-bg">
+        <div class="loader-bg" style="background-color: #1c3a7d">
           <img src="{{asset('asset/logo/loading2.gif')}}" alt="">
         </div>
         <button id="myBtn" title="Go to top"><i class="fas fa-chevron-up fa-2x"></i></button>
@@ -143,7 +143,7 @@
                   <p>Panitia PKKMB 2022 Universitas Udayana</p>
                 </li>
                 <li class="mb-1">
-                  <p>Direktorat Universitas Udayana <br><a href="https://goo.gl/maps/JghfBQnRHVA33pCm7" target="blank"><b class="text-primary">Jl. Kampus Bukit Jimbaran</b></a></p>
+                  <p>Student Center Universitas Udayana <br>Kampus Sudirman</p>
                 </li>
               </ul>
             </div>
