@@ -76,14 +76,14 @@ $page="Home";
                   </div>
                   <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="300">
                     <div class="infotime">
-                      <h3 class="titletime">MENTORING - 2 AGUSTUS</h3>
-                      <p>Mentoring merupakan rangkaian kegiatan kedua yang dihadiri para mentor hebat dengan berbagai materi yang tentunya akan sangat berguna untuk para mahasiswa baru</p>
+                      <h3 class="titletime">CAPACITY BUILDING - 2 AGUSTUS</h3>
+                      <p>Capacity Building merupakan  rangakaian kegiatan ketiga yang bertujuan untuk membentuk karakter mahasiswa baru dengan mendatangkan pembicara yang keren dan seru banget tentunya!</p>
                     </div>
                   </div>
                   <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="400">
                     <div class="infotime">
-                      <h3 class="titletime">CAPACITY BUILDING - 3 AGUSTUS</h3>
-                      <p>Capacity Building merupakan  rangakaian kegiatan ketiga yang bertujuan untuk membentuk karakter mahasiswa baru dengan mendatangkan pembicara yang keren dan seru banget tentunya!</p>
+                      <h3 class="titletime">MENTORING - 3 AGUSTUS</h3>
+                      <p>Mentoring merupakan rangkaian kegiatan kedua yang dihadiri para mentor hebat dengan berbagai materi yang tentunya akan sangat berguna untuk para mahasiswa baru</p>
                     </div>
                   </div>
                   <div class="cardtime aos-init aos-animate" data-aos="zoom-in-up" data-aos-delay="500">
