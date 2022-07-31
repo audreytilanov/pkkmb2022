@@ -34,7 +34,7 @@ $page = "Info UKM"
         @if ($ukm->id == 24)
         <img style="width:30%;height:auto;margin:auto;margin-top:53px;display: grid;
         justify-content: center;
-        align-content: center;" src="{{ URL::asset('asset/ukm/'.$ukm->foto.'') }}" alt="...">
+        align-content: center;" src="{{ URL::asset('asset/ukm/new/'.$ukm->foto.'') }}" alt="...">
         @else
         <img style="width:30%;height:auto;margin:auto;margin-top:53px;display: grid;
         justify-content: center;
