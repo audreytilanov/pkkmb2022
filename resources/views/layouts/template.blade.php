@@ -9,9 +9,9 @@
       <title><?= $page ?> | PKKMB 2022 </title>
 
       <!-- Favicon --- Perubahan dikit di icon (tak tambah2 in aja)-->
-      <link rel="icon" href="{{asset('asset/logo/LOGO KAYON Stroke.png')}}" type="image/png" />
-      <link rel="shortcut icon" href="{{asset('asset/logo/LOGO KAYON Stroke.png')}}" type="image/x-icon" />
-      <link rel="apple-touch-icon" href="{{asset('asset/logo/LOGO KAYON Stroke.png')}}">
+      <link rel="icon" href="{{URL::asset('asset/2022/logo.png')}}" type="image/png" />
+      <link rel="shortcut icon" href="{{URL::asset('asset/2022/logo.png')}}" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="{{URL::asset('asset/2022/logo.png')}}">
 
       <!-- Font Awesome-->
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">

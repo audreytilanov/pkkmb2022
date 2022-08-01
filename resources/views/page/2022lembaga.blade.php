@@ -218,6 +218,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                                 <p>
+                                    <b>BEM</b><br>
                                     Ketua BEM FPAR Unud	: Dana Arta<br>
                                     IG BEM  FPAR Unud		: @bemfpar_unud
                                   </p>
@@ -227,6 +228,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BPM</b><br>
                                 Ketua BPM FPAR Unud		: I Kadek Aditya Nara Kusuma<br>
                                 IG BPM				: @bemfpar_unud
                               </p>
@@ -293,7 +295,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">SENAT & BPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -306,6 +308,8 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>SENAT</b><br>
+                                
                                 Ketua		: I Gusti Ngurah Karista Oda Prihandana<br>
                                 Instagram	: @smfib.unud	
 
@@ -315,6 +319,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BPM</b><br>
                                 Ketua		: Desak Made Tia Kusuma Paramita<br>
                                 Instagram	: @bpmfib.unud
                               </p>
@@ -380,7 +385,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & DPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -393,6 +398,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BEM</b><br>
                                 Ketua BEM FK Unud 	: Eduardo Kenjiro<br>
                                 IG 			: @bemfkunud 
 
@@ -402,6 +408,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>DPM</b><br>
                                 Ketua DPM FK Unud 	: Aurelius Filibertus Nong Vito<br>
                                 IG			: @dpmfkunud
 
@@ -475,7 +482,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
-                                BEM<br>
+                                <b>BEM</b><br>
                                 Ketua		: I Gusti Agung Arya Suryaningrat<br>
                                 Instagram	 : @bemfhunud
                               </p>
@@ -484,7 +491,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
-                                DPM<br>
+                                <b>DPM</b><br>
                                 Ketua		: I Gusti Nyoman Redi Citragatra<br>
                                 Instagram 	: @dpmfhudayana
                               </p>
@@ -552,7 +559,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">SENAT & BPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -565,7 +572,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
-                                BEM<br>
+                                <b>SENAT</b><br>
                                 Ketua		:I Nyoman Hary Putra Darma<br>
                                 Instagram	: @smft_unud
                               </p>
@@ -574,7 +581,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
-                                DPM<br>
+                                <b>BPM</b><br>
                                 Ketua		:Cokorda Gd Dwipayana<br>
                                 Instagram	: @smft_unud
                               </p>
@@ -806,7 +813,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM KM & DPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -819,6 +826,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BEM</b><br>
                                 Ketua BEM FAPET	Unud	: Ni Kadek Siska Padmara Dewi<br>
                                 Ig 				: @bemkmfapetunud
 
@@ -828,6 +836,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>DPM</b><br>
                                 Ketua DPM FAPET	Unud	: Ketut Wahyu Prasetya<br>
                                 IG				: @dpmkmfapetudayana
                               </p>
@@ -893,7 +902,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & DPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -906,6 +915,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BEM</b><br>
                                 Ketua BEM FMIPA Unud	: Eka Saputra<br>
                                 IG BEM FMIPA Unud	: @bemfmipaunud
                               </p>
@@ -914,6 +924,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>DPM</b><br>
                                 Ketua DPM FMIPA Unud	: Raihan Arandi<br>
                                 IG DPM FMIPA Unud	: @dpmfmipaunud
                               </p>
@@ -974,7 +985,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & DPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -987,6 +998,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BEM</b><br>
                                 Ketua BEM FKH Unud		: I Dewa Putu Bagus Mertha Anom <br>
                                 IG BEM	: @bemfkhunud
                               </p>
@@ -995,6 +1007,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>DPM</b><br>
                                 Ketua DPM FKH Unud		: Made Gede Adi Surya Saputra<br>
                                 Instagram	: @dpmfkhunud
                               </p>
@@ -1070,6 +1083,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BEM</b><br>
                                 Ketua BEM FTP Unud: Achmad Gian Akbar Dzulkarnain<br>
                                 Instagram	: @bemftpunud
                               </p>
@@ -1078,6 +1092,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BPM</b><br>
                                 Ketua BPM FTP Unud	: I Gusti Ayu Ari Meltrani<br>
                                 Instagram	: @bpmftpunud
                               </p>
@@ -1143,7 +1158,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & DPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -1156,6 +1171,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BEM</b><br>
                                 Ketua BEM FISIP Unud	: I Ketut Wiratama Arimbawa<br>
                                 Instagram			: @bemfisipunud
                               </p>
@@ -1164,6 +1180,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>DPM</b><br>
                                 Ketua DPM FISIP Unud	: Putu Mas Anandania Pradnya Paramita<br>
                                 Instagram			: @dpmfisipunud
                               </p>
@@ -1226,7 +1243,7 @@ $page="Ormawa";
                       </div>
                       <div class="faq">
                           <div class="question">
-                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & BPM</h2>
+                              <h2 class="title" style="text-align:left;cursor:pointer;">BEM & DPM</h2>
                               <svg width="15" height="10" viewBox="0 0 42 25">
                                   <path
                                   d="M3 3L21 21L39 3"
@@ -1239,6 +1256,7 @@ $page="Ormawa";
                           <div class="answer">
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>BEM</b><br>
                                 Ketua	BEM FKP Unud	:Teofilus Christofan <br>
                                 Instagram			:@bemfkp_unud<br>
                               </p>
@@ -1247,6 +1265,7 @@ $page="Ormawa";
                               <br>
                             <div style="display: flex;justify-content:center;align-items:center;">
                               <p>
+                                <b>DPM</b><br>
                                 Ketua	DPM FKP Unud	: Fauzan  Rahmat  S.<br>
                                 Instagram			:@dpmfkp_unud
                               </p>
