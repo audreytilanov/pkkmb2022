@@ -329,7 +329,7 @@ input[type=submit]{
                     <div class="row"> 
                         @foreach ($data as $datas)
                         <div id="quizsoal" class="col-12" style="text-align: left"> 
-                            <h3>{{ $loop->iteration }}. {{ $datas->pertanyaan }}</h3> 
+                            <h3>{{ $loop->iteration }}. {!! $datas->pertanyaan !!}</h3> 
                             <div> 
                                 <input type="radio" value="1" name="box{{ $loop->iteration }}" id="one{{ $loop->iteration }}" class="one" required> 
                                 <input type="radio" value="2" name="box{{ $loop->iteration }}" id="two{{ $loop->iteration }}" class="two" required> 
