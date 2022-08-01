@@ -103,7 +103,7 @@ Route::get('/ruangbercakap2', function(){
 });
 
 Route::post('/eksplorasi', [PendaftaranController::class, 'store']);
-Route::get('/eksplorasi', [PcuController::class, 'index']);
+Route::get('/eksplorasi', [PcuController::class, 'index'])->name('eksplorasi');
 Route::get('/pcu', [PcuController::class, 'pcu'])->name('pcu');
 Route::post('/pcu/post', [PcuController::class, 'pcuPost'])->name('pcu.post');
 

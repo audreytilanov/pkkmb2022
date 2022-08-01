@@ -41,7 +41,7 @@ $page="Pendaftaran";
 }
 
 .detpodcast p{
-    text-align: justify;font-weight:500;font-size:20px;color:black;
+    text-align: justify;font-weight:500;font-size:19px;color:black;
 }
 
 .detpodcast .h1misi{
@@ -112,9 +112,9 @@ $page="Pendaftaran";
     text-align: center;
 }
 input[type=submit]:hover{
-    background-color: #025a0f;
+    background-color: #133374;
     color: white!important;
-    /* border: 4px solid rgb(255, 146, 146); */
+    border: 4px solid rgba(255, 255, 255, 0.747);
     transition: 0.3s ease-in-out;
 }
 input[type=submit]{
@@ -126,7 +126,7 @@ input[type=submit]{
     border: 4px solid rgba(255, 255, 255, 0);
     font-weight: bold;
     color: #fff;
-    background-color: #31863e;
+    background-color: #1f54be;
     text-decoration: none;
     padding: 10px 30px;
     margin-top: 20px;
@@ -144,6 +144,14 @@ input[type=submit]{
     font-size: 25px;
   }
 
+  #absenquiz select{
+    font-size: 25px;
+  }
+
+  .detpodcast p{
+    text-align: justify;font-weight:500;font-size:17px;color:black;
+}
+
   .detpodcast h1{
 
     font-size: 17px;
@@ -154,7 +162,7 @@ input[type=submit]{
         font-size: 33px;
     }
     #absenquiz{
-        margin-top: 230px!important;
+        margin-top: 100px!important;
     }
 
     .scroll-down{
@@ -162,8 +170,27 @@ input[type=submit]{
     }
   
 }
+@media only screen and (min-width: 400px) and (max-width:575.98px){ 
+    #absenquiz{
+        margin-top: 40px!important;
+    }
+    #absenquiz input{
+        font-size: 25px;
+     }
+  #absenquiz select{
+    font-size: 25px;
+  }
 
-@media only screen and (min-width: 0px) and (max-width:575.98px){ 
+  .detpodcast p{
+    text-align: justify;font-weight:500;font-size:14px;color:black;
+}
+
+.detpodcast{
+    padding: 20px 20px 32px 20px;
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width:400px){ 
     select{
         font-size: 20px;
         width: 100%!important;
@@ -171,6 +198,9 @@ input[type=submit]{
 
     #absenquiz input{
         width: 100%;
+        font-size: 20px;
+    }
+    #absenquiz select{
         font-size: 20px;
     }
     input[type=submit] {
@@ -182,11 +212,19 @@ input[type=submit]{
 
     }
 
+    .detpodcast{
+    padding: 20px 20px 32px 20px;
+}
+
+    .detpodcast p{
+    text-align: justify;font-weight:500;font-size:13px;color:black;
+}
+
     .detpodcast .h1misi{
     font-size: 35px;
     }
     #absenquiz{
-        margin-top: 410px!important;
+        margin-top: 90px!important;
     }
 
     .scroll-down{

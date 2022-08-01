@@ -10,7 +10,7 @@ class PcuController extends Controller
 {
     public function index(){
         $halaman = "eksplorasi";
-        return view('page.newmisi', compact('halaman', 'data'));
+        return view('page.newmisi', compact('halaman'));
     }
 
     public function pcu(){

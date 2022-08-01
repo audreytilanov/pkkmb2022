@@ -418,12 +418,12 @@ a:hover{
 
 @media only screen and (min-width: 768px) and (max-width:994.98px){ 
     #navigate #menu-content ul li{
-        font-size: 25px;
+        font-size: 22px;
         text-align: center!important;
     }
 
     #menu-content img{
-        width: 30%!important;
+        width: 25%!important;
         float: block;
         margin-left: auto;
         margin-right: auto;
@@ -432,12 +432,12 @@ a:hover{
 }
 @media only screen and (min-width: 576px) and (max-width:767.98px){ 
     #navigate #menu-content ul li{
-        font-size: 30px;
+        font-size: 20px;
         text-align: center!important;
     }
 
     #menu-content img{
-        width: 100%!important;
+        width: 20%!important;
         float: block;
         margin-left: auto;
         margin-right: auto;
@@ -446,12 +446,12 @@ a:hover{
 
 @media only screen and (min-width: 480px) and (max-width:575.98px){ 
     #navigate #menu-content ul li{
-        font-size: 30px;
+        font-size: 20px;
         text-align: center!important;
     }
 
     #menu-content img{
-        width: 30%!important;
+        width: 40%!important;
         float: block;
         margin-left: auto;
         margin-right: auto;
@@ -460,7 +460,7 @@ a:hover{
 
 @media only screen and (min-width: 100px) and (max-width:479.98px){ 
     #menu-content img{
-        width: 100%!important;
+        width: 40%!important;
         float: block;
         margin-left: auto;
         margin-right: auto;
@@ -470,7 +470,7 @@ a:hover{
         text-align: center!important;
     }
     #menu .title{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 

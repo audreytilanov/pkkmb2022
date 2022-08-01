@@ -63,7 +63,7 @@
                     </div>
                   </div>
                 </li>
-                <li><a href="javascript:void(0)" onclick="modalcs()">EKSPLORASI</a></li>			
+                <li><a @if($halaman == "eksplorasi") class="active" @endif href="{{ route('eksplorasi') }}">EKSPLORASI</a></li>			
                 <li>
                   <div class="dropdown">
                     <a @if($halaman == "galeri" || $halaman == "panitia") class="active" @endif href="javascript:void(0)">TENTANG PKKMB <i class="fas fa-chevron-circle-down"></i></a>
@@ -103,6 +103,7 @@
                     <a @if($halaman == "maps") class="active" @endif href="{{ route('petaunud') }}"><li>PETA UNUD</li></a>
                     <a @if($halaman == "guidebook") class="active" @endif href="javascript:void(0)" onclick="modalcs()"><li>GUIDEBOOK</li></a>
                     <a @if($halaman == "faq") class="active" @endif href="{{ route('faq') }}"><li>FAQ</li></a>
+                    <a @if($halaman == "eksplorasi") class="active" @endif href="{{ route('eksplorasi') }}"><li>EKSPLORASI</li></a>
                     <a @if($halaman == "galeri") class="active" @endif href="{{ route('galeri') }}"><li>GALERI</li></a>
                       <a @if($halaman == "panitia") class="active" @endif href="{{ route('panitia') }}"><li>PANITIA</li></a>
                   </ul>

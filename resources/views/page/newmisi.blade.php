@@ -47,7 +47,7 @@ $page="Misi";
 
         <div class="pagekanan pt-4">
 
-            <div class="podcasts" onclick="window.location='http://studentday.bemudayana.id/podcast';">
+            <div class="podcasts" onclick="window.location='http://pkkmb.bemudayana.id/pcu';">
 
                 <div class="tombol">
 
@@ -57,23 +57,23 @@ $page="Misi";
                 
             </div>
 
-            <div class="rb" onclick="window.location='http://studentday.bemudayana.id/ruangbercakap2';">
+            <div class="rb" onclick="modalcs()">
 
               
 
                     <div class="tombol">
 
-                        <h1>RUANG BERCAKAP 2</h1>
+                        <h1>GENERASI BERKARAKTER</h1>
 
                     </div>
 
             </div>
 
-            <div class="cb" onclick="window.location='http://studentday.bemudayana.id/capacitybuilding';">
+            <div class="cb" onclick="modalcs()">
 
                     <div class="tombol">
 
-                        <h1>CAPACITY BUILDING</h1>
+                        <h1>DETEKTIF MUDA UDAYANA</h1>
 
                     </div>
 
