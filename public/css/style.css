@@ -4086,3 +4086,626 @@ transform : scale(1.2)!important;
   .cardtime:nth-child(even) > .infotime > .titletime::before {
     right: -45px;
   }
+
+
+  #newmisi{
+
+    width: 100%;
+
+    margin: auto;
+
+
+    height: auto;
+    overflow: hidden;
+
+    background-image: url("../asset/2022/bg/lembaga2.png")!important;
+
+
+
+    /* background-color: #000; */
+
+    padding: 0!important;
+
+}
+
+
+
+#newmisi .container{
+
+}
+
+.katakiri .h1misi{
+
+    font-family: Poppins;
+
+    font-size: 60px;
+
+}
+
+
+
+.katakiri h1{
+
+    margin-top: 10%!important;
+
+    font-weight: 650;
+
+    font-family: Poppins;
+
+    font-size: 45px;
+
+    color: rgb(43, 41, 41);
+
+}
+
+
+
+.katakiri p{
+
+    margin-top: 10px!important;
+
+    font-weight: 800;
+
+    text-align: justify;
+
+    width: 95%;
+
+}
+
+
+
+#newmisi .katakiri{
+
+    width: 60%;
+    padding: 0 30px 30px 30px;
+    margin: 200px 0 200px 0!important;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: auto;
+
+    float: left;
+
+    /* background-color: #fff; */
+
+}
+
+
+
+#newmisi .pagekanan{
+
+    width: 40%;
+
+    height: 100vh;
+    margin: 200px 0 200px 0!important;
+    margin: auto;
+
+    float: right;
+
+    /* background-color: darkorange; */
+
+}
+
+
+
+.pagekanan .podcasts{
+
+    width: 90%;
+
+    background: url("../asset/umum/btn-podcast.jpg");
+
+    text-shadow: 3px 1px #000000a1;
+
+    cursor: y;
+
+    margin: auto;
+    margin-bottom: 40px;
+
+    font-family: Poppins;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    margin-top: 10%!important;
+
+    background-size: cover;
+
+    border-radius: 100px;
+
+    display: grid;
+
+    align-content: center;
+
+    text-align: center;
+
+    box-shadow: 3px 7px;
+
+    background-color: #ff9500;
+    color: white;
+    /* color: #0046d5; */
+
+    transition: 0.4s ease;
+
+    height: 28%;
+
+    z-index: -1!important;
+
+    /* outline: none; */
+
+    /* background-color: #fff; */
+
+}
+
+
+
+.pagekanan .podcasts:hover {
+
+    background: #fff;
+
+    color: black;
+
+}
+
+
+
+.podcasts h1{
+
+    font-size: 2rem;
+
+    width: 100%;
+
+    font-weight:800;
+
+}
+
+
+
+
+
+.pagekanan .rb{
+    width: 90%;
+    background: url("../asset/umum/btn-rb.jpg");
+    cursor: y;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: #245dcf;
+    color: white;
+    font-family: Poppins;
+    overflow: hidden;
+    text-shadow: 3px 1px #000000a1;
+
+    margin-top: 10px!important;
+    cursor: pointer;
+    background-size: cover;
+    border-radius: 100px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    box-shadow: 3px 7px;
+    color: white;
+    transition: 0.4s ease;
+    height: 28%;
+    z-index: -1!important;
+
+    /* outline: none; */
+
+    /* background-color: #fff; */
+
+}
+
+
+
+.pagekanan .rb:hover {
+
+    background: #fff;
+
+    color: black;
+
+}
+
+
+
+.rb h1{
+
+    font-size: 2rem;
+
+    width: 100%;
+
+    font-weight:800;
+
+}
+
+
+
+.pagekanan .cb{
+
+    width: 90%;
+
+    background: url("../asset/umum/btn-cb.jpg");
+
+    cursor: y;
+    background-color: #d2d461;
+    color: white;
+    margin: auto;
+    margin-bottom: 49px;
+
+    font-family: Poppins;
+
+    text-shadow: 3px 1px #000000a1;
+    overflow: hidden;
+
+    margin-top: 10px!important;
+
+    cursor: pointer;
+
+    background-size: cover;
+
+    border-radius: 100px;
+
+    display: grid;
+
+    align-content: center;
+
+    text-align: center;
+
+    box-shadow: 3px 7px!important;
+
+    color: white!important;
+
+    transition: 0.4s ease;
+
+    height: 28%;
+
+    z-index: -1!important;
+
+    /* outline: none; */
+
+    /* background-color: #fff; */
+
+}
+
+
+
+.pagekanan .cb:hover {
+
+    background: #fff;
+
+    color: black!important;
+
+}
+
+
+
+.cb h1{
+
+    font-size: 2rem;
+
+    width: 100%;
+
+    /* color: #fff!important; */
+
+    font-weight:800;
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width:991.98px){    
+
+#newmisi{
+
+    height: auto!important;
+
+}
+
+
+.katakiri h1{
+
+    font-size: 35px;
+
+}
+
+
+
+.katakiri .h1misi{
+
+    font-size: 50px;
+
+}
+
+
+
+.katakiri p{
+
+    margin-top: 10px!important;
+
+    font-weight: 800;
+
+    text-align: justify;
+
+    width: 95%;
+
+}
+
+
+
+.podcasts h1,.cb h1, .rb h1{
+
+    font-size: 1.6rem;
+
+}
+
+}
+
+@media only screen and (min-width: 576px) and (max-width:767.98px){ 
+
+    #newmisi{
+
+        height: auto;
+
+    }
+
+
+    #newmisi .katakiri{
+
+        width: 100%!important;
+
+        min-height: auto;
+
+        margin: 200px 0 50px 0!important;
+
+
+        max-height: auto;
+
+    }
+
+    .katakiri h1{
+
+        font-size: 25px;
+
+    }
+
+    
+
+    .katakiri .h1misi{
+
+        font-size: 40px;
+
+    }
+
+    
+
+    .katakiri p{
+
+        margin-top: 0px!important;
+
+        font-weight: 800;
+
+        text-align: justify;
+
+        width: 95%;
+
+    }
+
+
+
+    .katakiri .podcasts{
+
+        margin-top: 0px;
+
+    }
+
+
+
+    #newmisi .pagekanan{
+
+        width: 100%!important;
+        margin: 50px 0 200px 0!important;
+
+    }
+
+
+
+    #pagekanan .podcasts, .rb, .cb{
+
+        /* width: 100%!important; */
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width:575.98px){ 
+
+    #newmisi{
+
+        height: auto;
+
+    }
+
+    #newmisi .katakiri{
+
+        width: 100%!important;
+
+        min-height: auto;
+
+        max-height: auto;
+
+        margin: 200px 0 50px 0!important;
+
+
+    }
+
+    .katakiri h1{
+
+        font-size: 25px;
+
+    }
+
+    
+
+    .katakiri .h1misi{
+
+        font-size: 40px;
+
+    }
+
+    
+
+    .katakiri p{
+
+        margin-top: 0px!important;
+
+        font-weight: 800;
+
+        text-align: justify;
+
+        width: 95%;
+
+    }
+
+
+
+    .katakiri .podcasts{
+
+        margin-top: 0px;
+
+    }
+
+
+
+    #newmisi .pagekanan{
+
+        width: 100%!important;
+
+        margin: 50px 0 200px 0!important;
+
+
+    }
+
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width:479.98px){ 
+
+    #newmisi{
+
+        height: auto;
+
+    }
+
+    #newmisi .katakiri{
+
+        width: 100%!important;
+
+        min-height: auto;
+        margin: 200px 0 20px 0!important;
+
+
+        max-height: auto;
+
+    }
+
+    .katakiri h1{
+
+        font-size: 25px;
+
+    }
+
+    
+
+    .katakiri .h1misi{
+
+        font-size: 40px;
+
+    }
+
+    
+
+    .katakiri p{
+
+        margin-top: 0px!important;
+
+        font-weight: 800;
+
+        text-align: justify;
+
+        width: 95%;
+
+    }
+
+
+
+    .katakiri .podcasts{
+
+        margin-top: 0px;
+
+    }
+
+
+
+    #newmisi .pagekanan{
+
+        width: 100%!important;
+
+        margin: 0px 0 100px 0!important;
+
+
+    }
+
+    .podcasts h1,.cb h1, .rb h1{
+
+        font-size: 2rem;
+
+    }
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif}p{margin: 0%}body{height: 100vh;background-color: bisque;padding: 10px}.container{margin: 30px auto;background: white;padding: 20px 15px}label.box{display: flex;margin-top: 10px;padding: 10px 12px;border-radius: 5px;cursor: pointer;border: 1px solid #ddd}#one:checked~label.first, #two:checked~label.second, #three:checked~label.third, #four:checked~label.forth, #five:checked~label.fifth, #six:checked~label.sixth, #seven:checked~label.seveth, #eight:checked~label.eighth{border-color: #8e498e}#one:checked~label.first .circle, #two:checked~label.second .circle, #three:checked~label.third .circle, #four:checked~label.forth .circle, #five:checked~label.fifth .circle, #six:checked~label.sixth .circle, #seven:checked~label.seveth .circle, #eight:checked~label.eighth .circle{border: 6px solid #8e498e;background-color: #fff}label.box:hover{background: #d5bbf7}label.box .course{display: flex;align-items: center;width: 100%}label.box .circle{height: 22px;width: 22px;border-radius: 50%;margin-right: 15px;border: 2px solid #ddd;display: inline-block}input[type="radio"]{display: none}.btn.btn-primary{border-radius: 25px;margin-top: 20px}@media(max-width: 450px){.subject{font-size: 12px}} */
+label.box{
+    display: flex;margin-top: 10px;padding: 10px 12px;border-radius: 5px;cursor: pointer;border: 1px solid #ddd
+}
+.one:checked~label.first, .two:checked~label.second, .three:checked~label.third, .four:checked~label.forth, .five:checked~label.fifth{
+    border-color: white;
+    background-color: #245dcf;
+    color: white;
+}
+.one:checked~label.first .circle, .two:checked~label.second .circle, .three:checked~label.third .circle, .four:checked~label.forth .circle, .five:checked~label.fifth .circle{border: 6px solid #8e498e;background-color: #fff}
+label.box:hover{
+    background-color: #245dcf;
+    color: white;
+}
+label.box .course{
+    display: flex;align-items: center;width: 100%
+}
+label.box .circle{height: 22px;width: 22px;border-radius: 50%;margin-right: 15px;border: 2px solid #ddd;display: inline-block}
+input[type="radio"]{display: none}
+.btn.btn-primary{border-radius: 25px;margin-top: 20px}@media(max-width: 450px){
+    .subject{font-size: 12px}
+}
+
+#quizsoal{
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-bottom: 40px!important;
+    padding: 40px 100px 40px 80px;
+}
+
+#quizsoal h3{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#quizsoal .subject{
+    font-size: 18px;
+    font-weight: 500;
+}

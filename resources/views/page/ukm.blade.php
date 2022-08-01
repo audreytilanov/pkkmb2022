@@ -50,7 +50,7 @@ $page = "Info UKM";
                                 
                             
                             </div>
-                            <div class="row card-content" style="justify-content:center; text-align:center;">
+                            <div class="row card-content" style="display:flex;justify-content:center; text-align:center;align-items:flex-ends;">
                             {{-- <div class="caption"> --}}
                                 <h3 style="margin-top: 20px;font-weight:800;text-decoration:none;">{{ $detail->nama }}</h3>
                             </div>
