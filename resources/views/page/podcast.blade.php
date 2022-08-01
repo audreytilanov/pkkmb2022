@@ -1,5 +1,5 @@
 <?php
-$page="Pendaftaran";
+$page="Power Capacity Ups";
 ?>
 
 @extends('layouts.template')

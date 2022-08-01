@@ -1,6 +1,6 @@
 <?php
 
-$page="Misi";
+$page="Eksplorasi";
 
 ?>
 
