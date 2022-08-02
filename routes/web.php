@@ -74,7 +74,7 @@ Route::post('/podcast', [PodcastController::class, 'store']);
 Route::get('/guidebook', function(){
     $halaman = "guidebook";
     return view('page/bukupanduan', compact('halaman'));
-});
+})->name('guidebook');
 
 
 

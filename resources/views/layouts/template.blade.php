@@ -58,7 +58,7 @@
                     <a @if($halaman == "maps" || $halaman == "faq") class="active" @endif href="javascript:void(0)">INFORMASI <i class="fas fa-chevron-circle-down"></i></a>
                     <div class="dropdown-content">
                       <a @if($halaman == "maps") class="active" @endif href="{{ route('petaunud') }}">PETA UNUD</a>
-                      <a @if($halaman == "guidebook") class="active" @endif href="javascript:void(0)" onclick="modalcs()">GUIDEBOOK</a>
+                      <a @if($halaman == "guidebook") class="active" @endif href="{{ route('guidebook') }}">GUIDEBOOK</a>
                       <a @if($halaman == "faq") class="active" @endif href="{{ route('faq') }}">FAQ</a>
                     </div>
                   </div>
@@ -101,7 +101,7 @@
                     <a @if($halaman == "ormawa") class="active" @endif href="{{ route('ormawa') }}"><li>ORMAWA</li></a>
                     <a @if($halaman == "pendaftaran") class="active" @endif href="javascript:void(0)" onclick="modalcs()"><li>PENDAFTARAN</li></a>
                     <a @if($halaman == "maps") class="active" @endif href="{{ route('petaunud') }}"><li>PETA UNUD</li></a>
-                    <a @if($halaman == "guidebook") class="active" @endif href="javascript:void(0)" onclick="modalcs()"><li>GUIDEBOOK</li></a>
+                    <a @if($halaman == "guidebook") class="active" @endif href="{{ route('guidebook') }}"><li>GUIDEBOOK</li></a>
                     <a @if($halaman == "faq") class="active" @endif href="{{ route('faq') }}"><li>FAQ</li></a>
                     <a @if($halaman == "eksplorasi") class="active" @endif href="{{ route('eksplorasi') }}"><li>EKSPLORASI</li></a>
                     <a @if($halaman == "galeri") class="active" @endif href="{{ route('galeri') }}"><li>GALERI</li></a>
