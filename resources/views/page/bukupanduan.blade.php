@@ -6,11 +6,15 @@ $page="Guidebook";
 @section('content')
 <style>
     #judulmisi{
+    background-size: cover;
+    width: 100%;    
+    background-position: center;
     margin: 0;
+    background-repeat: no-repeat;
     /* padding: 0; */
     height: 70vh;
-    background: url("../asset/umum/bg-penjelasan.jpg");
-    /* background-attachment: fixed; */
+    background: url("../asset/2022/bg/gb3.jpg");
+    background-attachment: fixed;
     text-align:center;
 }
 
@@ -20,6 +24,7 @@ $page="Guidebook";
     width: 100%;
     color: #fff!important;
     font-weight:650;
+    text-shadow: 4px 2px #00000067;
     font-family: Poppins;
 }
 
@@ -44,10 +49,10 @@ $page="Guidebook";
 <section id="judulmisi">
     <div class="container">
         <div class="detpodcast">
-            <h1 data-aos="zoom-in"><span class="h1misi">GUIDEBOOK</span><br>STUDENT DAY 2021</u><br>UNIVERSITAS UDAYANA</h1>
+            <h1 data-aos="zoom-in"><span class="h1misi">KOMPAS KSATRIA</span><br></u><br></h1>
         </div>
     </div>
 </section>
-<iframe id="myFrame" allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/4c2821cc56.html" style="border:none;width: 100%; height: 100%; min-height: 500px;margin:0;padding:0;margin-bottom:-10px;"></iframe>
+<iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 650px;" src="https://heyzine.com/flip-book/94cd427803.html"></iframe>
 @endsection
 

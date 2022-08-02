@@ -72,7 +72,8 @@ Route::get('/panitia', 'App\Http\Controllers\PanitiaController@index')->name('pa
 Route::post('/podcast', [PodcastController::class, 'store']);
 
 Route::get('/guidebook', function(){
-    return view('page/bukupanduan');
+    $halaman = "guidebook";
+    return view('page/bukupanduan', compact('halaman'));
 });
 
 
