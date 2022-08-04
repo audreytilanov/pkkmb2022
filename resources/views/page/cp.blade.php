@@ -8,7 +8,7 @@ $page="Detektif Muda Udayana";
   #judulmisi{
     margin: 0;
     /* padding: 0; */
-    height: 100vh;
+    height: auto;
     /* background: url("../asset/2022/bg/jpg"); */
     background-attachment: fixed;
     text-align:center;
@@ -260,7 +260,7 @@ input[type=submit]{
 }
 
 .but-dow{
-  display: grid;align-content:center;text-align:center;width:250px;margin:auto;
+  display: grid;align-content:center;text-align:center;width:250px;margin:auto;margin-top: 30px
 }
 
 .hover{
@@ -292,23 +292,16 @@ input[type=submit]{
                 <p>
                     <b>Halo, Ksatria Muda Udayana!</b><br>
 
-                    &emsp;&emsp;&emsp;Tau gak sih, kalau kita masih banyak menghadapi masalah sosial di Indonesia, seperti pembuangan limbah, polusi, rusaknya ekosistem laut, pemanasan global, hingga pencemaran tanah. Mahasiswa sebagai agent of change diharapkan bisa menjadi sosok yang membawa perubahan lingkungan sekitar ke arah yang lebih baik. 
+                    &emsp;&emsp;&emsp;Tau gak sih, kalau kita masih banyak menghadapi masalah sosial di Indonesia, seperti pembuangan limbah, polusi, rusaknya ekosistem laut, pemanasan global, hingga pencemaran tanah. Mahasiswa sebagai <i>agent of change</i> diharapkan bisa menjadi sosok yang membawa perubahan lingkungan sekitar ke arah yang lebih baik. 
                     <br>
                     
                     &emsp;&emsp;&emsp;Nah, agar kalian bisa menjadi lebih tanggap serta dapat berpikir kritis terhadap permasalahan yang terjadi di lingkungan sosial, yuk kreasikan ide kalian dalam bentuk infografis semenarik mungkin tentang masalah sosial di Indonesia. <b>Untuk informasi selengkapnya, kalian dapat klik tombol di bawah ini.</b>
                 </p>
         </div>
-        <a href="#detektifmuda">
-            <div class="scroll-down"></div>
-        </a>
-    </div>
-    </section>
-    <section class="container" id="detektifmuda">
-        <iframe src="https://drive.google.com/file/d/11o-VLldVR28GfMuY57w3dVOYbOUjVDcZ/preview" width="100%" height="480" allow="autoplay"></iframe>
         <div class="but-dow">
-            <a class="hover" href="asset/eksplorasi/detektifmuda.pdf" download="RuangBercakap">UNDUH</a>
+            <a class="hover" href="asset/eksplorasi/detektifmuda.pdf" download="RuangBercakap">SELENGKAPNYA</a>
         </div>
-
+    </div>
     </section>
 </section>
 @endsection
