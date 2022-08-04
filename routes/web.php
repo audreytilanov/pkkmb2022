@@ -95,15 +95,12 @@ Route::get('/ukm', [UkmController::class, 'index']);
 
 Route::get('/ukm/{detail:slug}', [UkmController::class, 'show']);
 
-Route::get('/capacitybuilding', function(){
-    return view('page.cp');
-});
+Route::get('/detektif', [PcuController::class, 'detektif'])->name('detektif');
 
 Route::get('/ruangbercakap2', function(){
     return view('page.rb');
 });
 
-Route::post('/eksplorasi', [PendaftaranController::class, 'store']);
 Route::get('/eksplorasi', [PcuController::class, 'index'])->name('eksplorasi');
 Route::get('/pcu', [PcuController::class, 'pcu'])->name('pcu');
 Route::post('/pcu/post', [PcuController::class, 'pcuPost'])->name('pcu.post');

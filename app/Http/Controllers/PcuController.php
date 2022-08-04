@@ -15,8 +15,7 @@ class PcuController extends Controller
 
     public function pcu(){
         $data = Pcu::all();
-        // dd($data);
-        $halaman = "pcu";
+        $halaman = "eksplorasi";
         return view('page.podcast',compact('halaman', 'data'));
     }
 
@@ -113,6 +112,11 @@ class PcuController extends Controller
         }else{
             return redirect()->back()->with('error', 'Terjadi kesalahan, data anda tidak terkirim. Mohon kirim ulang.'.$kesalahan);  
         }
+    }
+
+    public function detektif(){
+        $halaman = "eksplorasi";
+        return view('page.cp', compact('halaman'));
     }
 
 }

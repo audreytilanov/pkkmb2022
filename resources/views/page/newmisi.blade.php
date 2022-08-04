@@ -57,13 +57,13 @@ $page="Eksplorasi";
                 
             </div>
 
-            <div class="rb" onclick="modalcs()">
+            <div class="rb" onclick="window.location='http://pkkmb.bemudayana.id/detektif';">
 
               
 
                     <div class="tombol">
 
-                        <h1>GENERASI BERKARAKTER</h1>
+                        <h1>DETEKTIF MUDA UDAYANA</h1>
 
                     </div>
 
@@ -73,7 +73,7 @@ $page="Eksplorasi";
 
                     <div class="tombol">
 
-                        <h1>DETEKTIF MUDA UDAYANA</h1>
+                        <h1>GENERASI BERKARAKTER</h1>
 
                     </div>
 
