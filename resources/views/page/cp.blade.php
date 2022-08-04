@@ -299,7 +299,7 @@ input[type=submit]{
                 </p>
         </div>
         <div class="but-dow">
-            <a class="hover" href="asset/eksplorasi/detektifmuda.pdf" download="RuangBercakap">SELENGKAPNYA</a>
+            <a class="hover" href="asset/eksplorasi/detektifmuda.pdf" download="DetektifMudaUdayana">SELENGKAPNYA</a>
         </div>
     </div>
     </section>
