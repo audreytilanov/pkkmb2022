@@ -590,6 +590,65 @@ a:hover{
 
 }
 
+@media only screen and (min-width: 992px) and (max-width:1199.98px){ 
+    #wrapperfaq h2 {
+        font-size: 25px;
+    }
+    #wrapperfaq p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:994.98px){ 
+    #wrapperfaq h2 {
+        font-size: 22px;
+    }
+    #wrapperfaq p {
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (min-width: 576px) and (max-width:767.98px){ 
+    #wrapperfaq h2 {
+        font-size: 22px;
+    }
+    #wrapperfaq p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width:575.98px){ 
+    #wrapperfaq h2 {
+        font-size: 20px;
+    }
+    #wrapperfaq p {
+        font-size: 14px;
+    }
+    #coverfaq .faq{
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width:479.98px){ 
+    #wrapperfaq h2 {
+        font-size: 15px;
+    }
+    #wrapperfaq p {
+        font-size: 10px;
+    }
+    #coverfaq .faq{
+        width: 85%;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+        padding-left: 5px;
+        padding-right: 15px;
+    }
+}
+
+
 
 
 

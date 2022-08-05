@@ -287,7 +287,6 @@ $page="Ormawa";
                     <p>&emsp;&emsp;&emsp;Segala informasi terbaru terkait PKKMB Universitas Udayana dapat dilihat pada linimasa resmi PKKMB Universitas Udayana 2022 di bawah ini:<br>
                         - Website PKKMB Universitas Udayana pkkmb.bemudayana.id<br>
                         - Instagram @ksatriamudaudayana
-                        
                     </p>
                 </div>  
             </div>
