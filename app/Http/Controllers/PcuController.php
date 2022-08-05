@@ -122,6 +122,6 @@ class PcuController extends Controller
 
     public function generasi(){
         $halaman = "eksplorasi";
-        return view('page.cp', compact('halaman'));
+        return view('page.rb', compact('halaman'));
     }
 }

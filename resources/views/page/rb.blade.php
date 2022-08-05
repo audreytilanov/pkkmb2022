@@ -279,7 +279,7 @@ input[type=submit]{
 <section id="cover">
     <section id="judulmisi">
     <div class="container">
-        <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal"></span><span>DETEKTIF MUDA UDAYANA</span></h1>
+        <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal"></span><span>GENERASI BERKARAKTER</span></h1>
         <div class="detpodcast">
             @if (\Session::has('success'))
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -290,7 +290,8 @@ input[type=submit]{
                 </div>
             @endif
                 <p>
-                    <b>GENERASI BERKARAKTER</b><br>
+                    <b>Halo Ksatria Muda Udayana! 
+                    </b><br>
 
                     &emsp;&emsp;&emsp;Kalian tau ga sih bahwa mahasiswa dan generasi muda adalah harapan dari bangsa kita, dan karakter bangsa merupakan aspek terpenting dari kualitas SDM yang menentukan kemajuan dari suatu bangsa lohh. Dimana pendidikan karakter itu sendiri adalah proses pemberian tuntunan kepada mahasiswa atau pemuda bangsa untuk menjadi manusia yang berkarakter dalam dimensi hati, pikiran, raga, serta rasa dan karsa, yang bertujuan untuk mengembangkan kemampuan mahasiswa atau pemuda, dan mewujudkan kebaikan dalam kehidupan sehari-hari yang bermanfaat bagi bangsa. 
 
