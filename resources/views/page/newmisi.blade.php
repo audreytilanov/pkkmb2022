@@ -69,7 +69,7 @@ $page="Eksplorasi";
 
             </div>
 
-            <div class="cb" onclick="window.location='http://pkkmb.bemudayana.id/generasi';">
+            <div class="cb" onclick="window.location='http://pkkmb.bemudayana.id/generasiberkarakter';">
 
                     <div class="tombol">
 
