@@ -78,8 +78,16 @@ $page="Eksplorasi";
                     </div>
 
             </div>
-
             
+            <div class="cb" style="background-color:navy!important;" onclick="window.location='http://pkkmb.bemudayana.id/missionkompas';">
+
+                <div class="tombol">
+
+                    <h1>MISSION KOMPAS KSATRIA</h1>
+
+                </div>
+
+            </div>
 
     </iframe>
 

@@ -121,7 +121,12 @@ class PcuController extends Controller
     
 
     public function generasi(){
-        $halaman = "eksplorasi";
+        $halaman = "eksplorasi";    
         return view('page.rb', compact('halaman'));
+    }
+
+    public function missionKompas(){
+        $halaman = "eksplorasi";    
+        return view('page.missionkompas', compact('halaman'));
     }
 }
