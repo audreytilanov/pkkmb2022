@@ -96,10 +96,7 @@ Route::get('/ukm', [UkmController::class, 'index']);
 Route::get('/ukm/{detail:slug}', [UkmController::class, 'show']);
 
 Route::get('/detektif', [PcuController::class, 'detektif'])->name('detektif');
-
-Route::get('/ruangbercakap2', function(){
-    return view('page.rb');
-});
+Route::get('/generasiberkarakter', [PcuController::class, 'generasi'])->name('generasi');
 
 Route::get('/eksplorasi', [PcuController::class, 'index'])->name('eksplorasi');
 Route::get('/pcu', [PcuController::class, 'pcu'])->name('pcu');
