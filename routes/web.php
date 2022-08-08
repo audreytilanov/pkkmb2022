@@ -79,7 +79,8 @@ Route::get('/guidebook', function(){
 
 
 Route::get('/pendaftaran', function(){
-    return view('page.pendaftaran');
+    $halaman = "pendaftaran";
+    return view('page.pendaftaran',compact('halaman'));
 })->name('pendaftaran.input');
 
 Route::post('/pendaftaran', [PendaftaranController::class, 'store']);

@@ -9,26 +9,18 @@ class PendaftaranController extends Controller
 {
     public function store(Request $request){
         $request->validate([
-            'email' => 'required|string',
+            'email' => 'required|string|unique:App\Models\Pendaftaran,email',
             'nama_lengkap' => 'required',
-            'nim' => 'required',
+            'nim' => 'required|unique:App\Models\Pendaftaran,nim',
             'fakultas' => 'required',
             'prodi' => 'required',
-            'agama' => 'required',
-            'alamat' => 'required',
-            'alamat_domisili' => 'required',
             'hp' => 'required|string',
-            'line' => 'required',
             'ukm' => 'required',
-            'forum_agama' => 'required',
-            'paguyuban' => 'required',
-            
         ]);
             
-        Pendaftaran::create([
+        $send = Pendaftaran::create([
                 'email' => $request->email,
                 'nama_lengkap' => $request->nama_lengkap,
-                // 'klpgugus' => $request->klpgugus,
                 'nim' => $request->nim,
                 'fakultas' => $request->fakultas,
                 'prodi' => $request->prodi,
@@ -43,11 +35,15 @@ class PendaftaranController extends Controller
                 'forum_agama' => $request->forum_agama,
                 'paguyuban' => $request->paguyuban
             ]);
+
             
             // $request->session()->increment('count', $incrementBy = 2);
 
-            return redirect()->route('pendaftaran.input')->with('success', 'Pendaftaran Telah Berhasil :)');   
-        
+            if($send){
+                return redirect()->back()->with('success', 'Pendaftaran Telah Berhasil :)');   
+            }else{
+                return redirect()->back()->with('error', 'Terjadi kesalahan, data anda tidak terkirim. Mohon kirim ulang.');  
+            }
         }
     
 }
