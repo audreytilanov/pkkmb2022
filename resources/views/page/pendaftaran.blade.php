@@ -8,7 +8,7 @@ $page="Pendaftaran";
   #judulmisi{
     margin: 0;
     /* padding: 0; */
-    height: 100vh;
+    height: 20vh;
     /* background: url("../asset/2022/bg/jpg"); */
     background-attachment: fixed;
     text-align:center;
@@ -35,7 +35,7 @@ $page="Pendaftaran";
     margin-top: 10%;
     font-size: 20px;
     width: 100%;
-    color: black!important;
+    /* color: black!important; */
     font-weight:650;
     font-family: Poppins;
 }
@@ -266,19 +266,20 @@ input[type=submit]{
 <section id="cover">
   <section id="judulmisi">
     <div class="container">
-        <div class="detpodcast">
+      <h1 class="title mb-0 aos-init aos-animate" data-aos="fade-right"><span class="font-weight-normal"></span><span>PENDAFTARAN</span></h1>
+
           @if (\Session::has('success'))
+          <div class="detpodcast">
+
               <div class="alert alert-success alert-dismissible fade show" role="alert">
                   <strong>{!! \Session::get('success') !!}</strong>
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                   </button>
               </div>
-          @endif
-              <h1 data-aos="zoom-in"><span class="h1misi">Pendaftaran Unit Kegiatan Mahasiswa, Forum Agama, dan Paguyuban Daerah</h1>
-              <hr style="color: white;border:3px solid white;">
-              <br>Penjelasan selengkapnya tentang UKM, Forum Agama, dan Paguyuban Daerah dapat diakses pada menu <u></u><span style="color:darkorange;"><a href="/ormawa">ormawa</a></span>
         </div>
+
+          @endif
     </div>
   </section>
     
