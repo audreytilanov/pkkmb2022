@@ -15,7 +15,7 @@ $page="Pendaftaran";
 }
 
 #judulmisi h1{
-    margin-top: 20px!important;
+    margin-top: 150px!important;
     padding-bottom: 30px;
 
 }
