@@ -78,12 +78,12 @@ Route::get('/guidebook', function(){
 
 
 
-// Route::get('/pendaftaran', function(){
-//     $halaman = "pendaftaran";
-//     return view('page.pendaftaran',compact('halaman'));
-// })->name('pendaftaran.input');
+Route::get('/pendaftaran', function(){
+    $halaman = "pendaftaran";
+    return view('page.pendaftaran',compact('halaman'));
+})->name('pendaftaran.input');
 
-// Route::post('/pendaftaran', [PendaftaranController::class, 'store']);
+Route::post('/pendaftaran', [PendaftaranController::class, 'store']);
 
 
 
