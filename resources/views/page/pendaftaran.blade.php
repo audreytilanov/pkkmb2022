@@ -8,7 +8,7 @@ $page="Pendaftaran";
   #judulmisi{
     margin: 0;
     /* padding: 0; */
-    height: 20vh;
+    height: 100vh;
     /* background: url("../asset/2022/bg/jpg"); */
     background-attachment: fixed;
     text-align:center;
